@@ -1,30 +1,33 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
   --font-size: 16px;
-  --background: #FFFFFF;
-  --foreground: #2D2D2D;
+  --background: #ffffff;
+  --foreground: #2d2d2d;
   --card: #ffffff;
-  --card-foreground: #2D2D2D;
+  --card-foreground: #2d2d2d;
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #F2A81D;
+  --primary: #f2a81d;
   --primary-foreground: #ffffff;
-  --secondary: #D92534;
+  --secondary: #d92534;
   --secondary-foreground: #ffffff;
-  --muted: #F5F5F0;
-  --muted-foreground: #6B6B6B;
-  --accent: #4982A6;
+  --muted: #f5f5f0;
+  --muted-foreground: #6b6b6b;
+  --accent: #4982a6;
   --accent-foreground: #ffffff;
-  --destructive: #D92534;
+  --destructive: #d92534;
   --destructive-foreground: #ffffff;
   --border: rgba(0, 0, 0, 0.08);
   --input: transparent;
-  --input-background: #F9F9F9;
+  --input-background: #f9f9f9;
   --switch-background: #cbced4;
   --font-weight-medium: 500;
   --font-weight-normal: 400;
-  --ring: #F2A81D;
+  --ring: #f2a81d;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
