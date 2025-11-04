@@ -1,0 +1,49 @@
+"use client"
+
+import { UserCircle, Search, Handshake } from "lucide-react"
+import { useLanguage } from "@/contexts/language-context"
+
+export function HowItWorks() {
+  const { t } = useLanguage()
+
+  const icons = [
+    <UserCircle key="user" className="w-12 h-12" />,
+    <Search key="search" className="w-12 h-12" />,
+    <Handshake key="handshake" className="w-12 h-12" />,
+  ]
+
+  return (
+    <section className="bg-white px-4 py-16 md:py-24">
+      <div className="mx-auto max-w-7xl">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl text-[#2D2D2D] mb-4">{t.howItWorks.title}</h2>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
+          {t.howItWorks.steps.map((step, index) => (
+            <div key={index} className="relative text-center">
+              {/* Connecting Line (hidden on mobile) */}
+              {index < t.howItWorks.steps.length - 1 && (
+                <div className="hidden md:block absolute top-16 left-[60%] w-[80%] h-0.5 bg-gradient-to-r from-[#F2A81D] to-[#4982A6]"></div>
+              )}
+
+              <div className="relative z-10 flex flex-col items-center">
+                <div className="mb-4 w-24 h-24 rounded-full bg-gradient-to-br from-[#FFF5E6] to-[#E8F3F8] flex items-center justify-center text-[#4982A6] shadow-lg">
+                  {icons[index]}
+                </div>
+
+                <div className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#F2A81D] text-white mb-4">
+                  {index + 1}
+                </div>
+
+                <h3 className="mb-2 text-[#2D2D2D]">{step.title}</h3>
+
+                <p className="text-[#6B6B6B]">{step.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
