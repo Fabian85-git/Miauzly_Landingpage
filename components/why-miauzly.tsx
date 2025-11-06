@@ -22,7 +22,7 @@ export function WhyMiauzly() {
           {t.whyMiauzly.features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-shadow border border-gray-100"
+              className="bg-white rounded-2xl p-6 transition-all border border-gray-100 hover:border-gray-200"
             >
               <div className="flex items-start gap-4">
                 <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#FFF5E6] to-[#E8F3F8] flex items-center justify-center text-2xl flex-shrink-0">

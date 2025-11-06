@@ -28,7 +28,7 @@ export function HowItWorks() {
               )}
 
               <div className="relative z-10 flex flex-col items-center">
-                <div className="mb-4 w-24 h-24 rounded-full bg-gradient-to-br from-[#FFF5E6] to-[#E8F3F8] flex items-center justify-center text-[#4982A6] shadow-lg">
+                <div className="mb-4 w-24 h-24 rounded-full bg-gradient-to-br from-[#FFF5E6] to-[#E8F3F8] flex items-center justify-center text-[#4982A6]">
                   {icons[index]}
                 </div>
 

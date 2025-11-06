@@ -57,9 +57,9 @@ export function Newsletter() {
   }
 
   return (
-    <section id="newsletter" className="bg-gray-50 px-4 py-16 md:py-24">
+    <section id="newsletter" className="bg-[#4982A6] px-4 py-16 md:py-24">
       <div className="mx-auto max-w-3xl">
-        <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 border border-gray-100">
+        <div className="bg-white rounded-3xl p-8 md:p-12 border border-gray-100">
           {!submitted ? (
             <>
               <div className="text-center mb-8">
@@ -107,7 +107,7 @@ export function Newsletter() {
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-[#F2A81D] hover:bg-[#E09815] text-white rounded-full py-6 shadow-lg hover:shadow-xl transition-all disabled:opacity-50"
+                  className="w-full bg-[#F2A81D] hover:bg-[#E09815] text-white rounded-full py-6 transition-all disabled:opacity-50"
                 >
                   {isSubmitting ? "Wird gesendet..." : t.newsletter.submitButton}
                 </Button>
@@ -134,15 +134,15 @@ export function Newsletter() {
         <div className="grid grid-cols-3 gap-4 mt-8 text-center">
           <div>
             <div className="text-2xl mb-1">🇨🇭</div>
-            <p className="text-sm text-[#6B6B6B]">{t.newsletter.trustIndicators[0]}</p>
+            <p className="text-sm text-white">{t.newsletter.trustIndicators[0]}</p>
           </div>
           <div>
             <div className="text-2xl mb-1">🔒</div>
-            <p className="text-sm text-[#6B6B6B]">{t.newsletter.trustIndicators[1]}</p>
+            <p className="text-sm text-white">{t.newsletter.trustIndicators[1]}</p>
           </div>
           <div>
             <div className="text-2xl mb-1">💚</div>
-            <p className="text-sm text-[#6B6B6B]">{t.newsletter.trustIndicators[2]}</p>
+            <p className="text-sm text-white">{t.newsletter.trustIndicators[2]}</p>
           </div>
         </div>
       </div>

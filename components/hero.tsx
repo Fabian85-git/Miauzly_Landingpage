@@ -49,7 +49,7 @@ export function Hero() {
             <div className="space-y-4">
               <Button
                 onClick={scrollToNewsletter}
-                className="bg-[#F2A81D] hover:bg-[#E09815] text-white rounded-full px-12 py-6 shadow-lg hover:shadow-xl transition-all"
+                className="bg-[#F2A81D] hover:bg-[#E09815] text-white rounded-full px-12 py-6 transition-all"
               >
                 {t.hero.cta}
               </Button>

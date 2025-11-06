@@ -22,7 +22,7 @@ export function ForWhom() {
           {t.forWhom.audiences.map((audience, index) => (
             <div
               key={index}
-              className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all border-2 border-gray-100 hover:border-gray-200"
+              className="bg-white rounded-3xl p-8 transition-all border-2 border-gray-100 hover:border-gray-200"
             >
               <div className="flex items-center gap-4 mb-6">
                 <div

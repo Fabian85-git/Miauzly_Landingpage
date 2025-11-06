@@ -16,7 +16,7 @@ export function SneakPreview() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Mockup 1: Cat Owner List */}
           <div className="flex flex-col items-center">
-            <div className="bg-[#2D2D2D] rounded-[2rem] p-2 shadow-2xl w-full max-w-[280px]">
+            <div className="bg-[#2D2D2D] rounded-[2rem] p-2 w-full max-w-[280px]">
               <div className="bg-white rounded-[1.5rem] overflow-hidden">
                 <Image
                   src="/images/app-list-catowner.png"
@@ -32,7 +32,7 @@ export function SneakPreview() {
 
           {/* Mockup 2: Sitter Profile */}
           <div className="flex flex-col items-center">
-            <div className="bg-[#2D2D2D] rounded-[2rem] p-2 shadow-2xl w-full max-w-[280px]">
+            <div className="bg-[#2D2D2D] rounded-[2rem] p-2 w-full max-w-[280px]">
               <div className="bg-white rounded-[1.5rem] overflow-hidden">
                 <Image
                   src="/images/app-profile-sitter.png"
@@ -48,7 +48,7 @@ export function SneakPreview() {
 
           {/* Mockup 3: Forum */}
           <div className="flex flex-col items-center">
-            <div className="bg-[#2D2D2D] rounded-[2rem] p-2 shadow-2xl w-full max-w-[280px]">
+            <div className="bg-[#2D2D2D] rounded-[2rem] p-2 w-full max-w-[280px]">
               <div className="bg-white rounded-[1.5rem] overflow-hidden">
                 <Image
                   src="/images/app-forum.png"

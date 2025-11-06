@@ -13,9 +13,9 @@ export function AboutUs() {
           <h2 className="text-3xl md:text-4xl text-[#2D2D2D] mb-4">{t.aboutUs.title}</h2>
         </div>
 
-        <div className="bg-gradient-to-br from-[#FFF5E6] to-[#E8F3F8] rounded-3xl p-8 md:p-12 shadow-lg">
+        <div className="bg-gradient-to-br from-[#FFF5E6] to-[#E8F3F8] rounded-3xl p-8 md:p-12">
           <div className="flex flex-col items-center text-center">
-            <div className="w-36 h-36 rounded-full overflow-hidden mb-6 shadow-md">
+            <div className="w-36 h-36 rounded-full overflow-hidden mb-6">
               <Image
                 src="/images/rubi-ramiro.png"
                 alt="Rubi & Ramiro"
