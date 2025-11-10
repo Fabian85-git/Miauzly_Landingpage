@@ -49,9 +49,10 @@ export function Hero() {
             <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl">{t.hero.description}</p>
 
             <div className="space-y-4">
+              {/* Removed text-lg to restore original smaller button text size */}
               <Button
                 onClick={scrollToNewsletter}
-                className="bg-[#F2A81D] hover:bg-[#E09815] text-white text-lg rounded-full px-12 py-6 transition-all"
+                className="bg-[#F2A81D] hover:bg-[#E09815] text-white rounded-full px-12 py-6 transition-all"
               >
                 {t.hero.cta}
               </Button>
