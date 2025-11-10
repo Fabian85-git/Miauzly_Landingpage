@@ -1,13 +1,20 @@
 "use client"
 import { useLanguage } from "@/contexts/language-context"
+import { Cat, Handshake, BadgeCheckIcon, Lightbulb, MapPinIcon } from "lucide-react"
 
 export function WhyMiauzly() {
   const { t } = useLanguage()
 
-  const emojis = ["🐱", "🤝", "🏡", "💡", "🇨🇭"]
+  const icons = [
+    <Cat key="cat" className="w-7 h-7 text-[#4982A6]" />,
+    <Handshake key="handshake" className="w-7 h-7 text-[#4982A6]" />,
+    <BadgeCheckIcon key="home" className="w-7 h-7 text-[#4982A6]" />,
+    <Lightbulb key="lightbulb" className="w-7 h-7 text-[#4982A6]" />,
+    <MapPinIcon key="mappin" className="w-7 h-7 text-[#4982A6]" />,
+  ]
 
   return (
-    <section className="px-4 py-16 md:py-24 bg-[rgba(255,173,8,1)]">
+    <section className="px-4 py-16 md:py-24 bg-[#FFF5E6] text-[rgba(255,173,8,1)] bg-[rgba(255,173,8,1)]">
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl text-[#2D2D2D] mb-6">{t.whyMiauzly.title}</h2>
@@ -25,8 +32,8 @@ export function WhyMiauzly() {
               className="bg-white rounded-2xl p-6 transition-all border border-gray-100 hover:border-gray-200"
             >
               <div className="flex items-start gap-4">
-                <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#FFF5E6] to-[#E8F3F8] flex items-center justify-center text-2xl flex-shrink-0">
-                  {emojis[index]}
+                <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#FFF5E6] to-[#E8F3F8] flex items-center justify-center flex-shrink-0">
+                  {icons[index]}
                 </div>
                 <div>
                   <h3 className="mb-2 text-[#2D2D2D]">{feature.title}</h3>

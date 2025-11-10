@@ -84,7 +84,7 @@ export const translations = {
       title: "Ein erster Blick auf miauzly",
       mockups: ["Dashboard mit Profilen", "Profile und Kontakt", "Community-Austausch"],
       description: "Wir entwickeln gerade die erste Version von miauzly.ch.",
-      cta: "Melde dich an, um frühzeitig Zugang zur Beta zu erhalten 🐾",
+      cta: "Melde dich an, um frühzeitig Zugang zur Beta zu erhalten",
     },
     aboutUs: {
       title: "Über uns",
@@ -212,7 +212,7 @@ export const translations = {
       title: "A first look at miauzly",
       mockups: ["Dashboard with profiles", "Profile and Contact", "Community Exchange"],
       description: "We are currently developing the first version of miauzly.ch.",
-      cta: "Sign up to get early access to the beta 🐾",
+      cta: "Sign up to get early access to the beta",
     },
     aboutUs: {
       title: "About us",

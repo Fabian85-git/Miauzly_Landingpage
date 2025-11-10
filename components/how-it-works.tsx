@@ -7,9 +7,9 @@ export function HowItWorks() {
   const { t } = useLanguage()
 
   const icons = [
-    <UserCircle key="user" className="w-12 h-12" />,
-    <Search key="search" className="w-12 h-12" />,
-    <Handshake key="handshake" className="w-12 h-12" />,
+    <UserCircle key="user" className="size-11" />,
+    <Search key="search" className="size-11" />,
+    <Handshake key="handshake" className="size-11" />,
   ]
 
   return (
