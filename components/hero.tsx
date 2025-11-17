@@ -23,7 +23,7 @@ export function Hero() {
           className="w-full h-full object-cover brightness-110 contrast-110"
         >
           <source
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/header_video_miauzly2-a1O3dliRuXJBBSroWDW19NO2aNCvHO.mp4"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/header_video_miauzly3-ac3WV7WfnnQ45gPDrOwEfvoNIP2ddK.mp4"
             type="video/mp4"
           />
         </video>

@@ -17,7 +17,7 @@ export default function Page() {
         <Hero />
         <ForWhom />
         <WhyMiauzly />
-        <HowItWorks />
+        {/* <HowItWorks /> */}
         <SneakPreview />
         <AboutUs />
         <Newsletter />
