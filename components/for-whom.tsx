@@ -1,15 +1,18 @@
 "use client"
 
-import { Heart, Users } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
+import Image from "next/image"
 
 export function ForWhom() {
   const { t } = useLanguage()
 
-  const icons = [<Heart key="heart" className="w-8 h-8" />, <Users key="users" className="w-8 h-8" />]
+  const icons = [
+    <Image key="holding" src="/images/holding2.svg" alt="Holding cat" width={200} height={200} className="h-[200px] w-[200px]" />, 
+    <Image key="sitting" src="/images/sitting2.svg" alt="Sitting cat" width={200} height={200} className="h-[200px] w-[200px]" />
+  ]
 
   const emojis = ["🏠", "🐾"]
-  const colors = ["#F2A81D", "#4982A6"]
+  const colors = ["#0062F0", "#FFA2CD"]
 
   return (
     <section className="bg-white px-4 py-16 md:py-24">
@@ -20,17 +23,17 @@ export function ForWhom() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {t.forWhom.audiences.map((audience, index) => (
-            <div key={index} className="bg-[#4383A4] rounded-3xl p-8 transition-all">
-              <div className="flex items-center gap-4 mb-6">
-                
-                <h3 className="text-white font-bold">{audience.title}</h3>
+            <div key={index} className="rounded-3xl p-8 transition-all" style={{ backgroundColor: colors[index] }}>
+              <div className="flex flex-col gap-4 mb-6 items-start">
+                {icons[index]}
+                <h3 className="text-white font-bold text-center">{audience.title}</h3>
               </div>
 
               <ul className="space-y-4">
                 {audience.benefits.map((benefit, benefitIndex) => (
                   <li key={benefitIndex} className="flex items-start gap-3">
                     <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 bg-white">
-                      <svg className="w-4 h-4 text-[#F2A81D]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg className="w-4 h-4 text-brand-yellow" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>

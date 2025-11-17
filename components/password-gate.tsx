@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState, useEffect } from "react"
-import { Lock } from "lucide-react"
+import { Lock } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 
@@ -44,11 +44,11 @@ export function PasswordGate({ children }: { children: React.ReactNode }) {
 
   if (!isAuthenticated) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#4982A6] to-[#F2A81D] p-4">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-brand-blue to-brand-yellow p-4">
         <div className="w-full max-w-md">
           <div className="bg-white rounded-2xl p-8 border border-gray-200">
             <div className="flex justify-center mb-6">
-              <div className="w-16 h-16 bg-[#4982A6] rounded-full flex items-center justify-center">
+              <div className="w-16 h-16 bg-brand-blue rounded-full flex items-center justify-center">
                 <Lock className="w-8 h-8 text-white" />
               </div>
             </div>
@@ -74,7 +74,7 @@ export function PasswordGate({ children }: { children: React.ReactNode }) {
                 )}
               </div>
 
-              <Button type="submit" className="w-full bg-[#F2A81D] hover:bg-[#F2A81D]/90 text-white">
+              <Button type="submit" className="w-full bg-brand-yellow hover:bg-brand-yellow-hover text-gray-900">
                 Entsperren
               </Button>
             </form>

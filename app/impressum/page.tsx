@@ -2,7 +2,7 @@
 
 import { useEffect } from "react"
 import Link from "next/link"
-import { ArrowLeft } from "lucide-react"
+import { ArrowLeft } from 'lucide-react'
 import { Footer } from "@/components/footer"
 import { LogoWhite } from "@/components/logo-white"
 import { useLanguage } from "@/contexts/language-context"
@@ -39,7 +39,7 @@ export default function ImpressumPage() {
       <main className="flex-1 mx-auto max-w-4xl px-4 py-12 font-sans">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-gray-600 hover:text-[#4982A6] transition-colors mb-8"
+          className="inline-flex items-center gap-2 text-gray-600 hover:text-brand-blue transition-colors mb-8"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>{t.imprint.backLink}</span>
@@ -57,7 +57,7 @@ export default function ImpressumPage() {
                 ) : index === 3 ? (
                   <>
                     E-Mail:{" "}
-                    <a href="mailto:hello@miauzly.ch" className="text-[#4982A6] hover:underline">
+                    <a href="mailto:hello@miauzly.ch" className="text-brand-blue hover:underline">
                       hello@miauzly.ch
                     </a>
                   </>

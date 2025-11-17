@@ -78,7 +78,7 @@ export function SneakPreview() {
               <button
                 key={index}
                 className={`w-2 h-2 rounded-full transition-colors ${
-                  index === selectedIndex ? "bg-[#4982A6]" : "bg-gray-300"
+                  index === selectedIndex ? "bg-brand-blue" : "bg-gray-300"
                 }`}
                 onClick={() => emblaApi?.scrollTo(index)}
                 aria-label={`Go to slide ${index + 1}`}

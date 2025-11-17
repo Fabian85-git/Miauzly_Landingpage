@@ -7,7 +7,7 @@ export const translations = {
       title: "Liebevolle Katzensitter finden oder selber Katzenliebe teilen",
       description:
         "Bald verfügbar: miauzly.ch ist die neu Plattform von Katzenfans für Katzenfans in der Schweiz. Verbinde dich bei uns mit Katzenhalter*innen in deiner Nähe für gegenseitge Betreuung im Tausch oder finde liebevolle Katzensitter gegen Bezahlung.",
-      cta: "Jetzt auf die Interessentenliste setzen",
+      cta: "Auf Interessentenliste setzen",
       waitlist: "Trage dich auf die Warteliste ein und erfahre, wenn miauzly startet.",
     },
     howItWorks: {

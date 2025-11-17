@@ -1,6 +1,6 @@
 "use client"
 
-import { UserCircle, Search, Handshake } from "lucide-react"
+import { UserCircle, Search, Handshake } from 'lucide-react'
 import { useLanguage } from "@/contexts/language-context"
 
 export function HowItWorks() {
@@ -23,11 +23,9 @@ export function HowItWorks() {
           {t.howItWorks.steps.map((step, index) => (
             <div key={index} className="relative text-center">
               <div className="relative z-10 flex flex-col items-center">
-                <div className="mb-4 rounded-full bg-gradient-to-br from-[#FFF5E6] to-[#E8F3F8] flex items-center justify-center text-[#4982A6] w-[84px] h-[84px]">
+                <div className="mb-4 rounded-full bg-gradient-to-br from-[#01A752] to-[#01A752] flex items-center justify-center w-[84px] h-[84px] text-white text-white bg-destructive">
                   {icons[index]}
                 </div>
-
-                
 
                 <p className="text-[#2D2D2D] text-lg leading-relaxed">{step.description}</p>
               </div>

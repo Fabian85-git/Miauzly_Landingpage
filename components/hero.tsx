@@ -1,6 +1,5 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import { LogoWhite } from "@/components/logo-white"
 import { LanguageToggle } from "@/components/language-toggle"
 import { useLanguage } from "@/contexts/language-context"
@@ -24,7 +23,7 @@ export function Hero() {
           className="w-full h-full object-cover brightness-110 contrast-110"
         >
           <source
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/header_video_miauzly1-xvg0o7ckOcr8koHryQ3MBc75WvPq2w.mp4"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/header_video_miauzly2-a1O3dliRuXJBBSroWDW19NO2aNCvHO.mp4"
             type="video/mp4"
           />
         </video>
@@ -54,13 +53,12 @@ export function Hero() {
             <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl">{t.hero.description}</p>
 
             <div className="space-y-4">
-              {/* Removed text-lg to restore original smaller button text size */}
-              <Button
+              <button
                 onClick={scrollToNewsletter}
-                className="bg-[#F2A81D] hover:bg-[#E09815] text-white rounded-full px-12 py-6 transition-all"
+                className="bg-brand-yellow hover:bg-brand-yellow-hover text-gray-900 rounded-full px-12 py-6 transition-all font-medium cursor-pointer inline-flex items-center justify-center"
               >
                 {t.hero.cta}
-              </Button>
+              </button>
 
               <p className="text-sm text-gray-300 max-w-md">{t.hero.waitlist}</p>
             </div>

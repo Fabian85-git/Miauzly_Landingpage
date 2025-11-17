@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Mail, CheckCircle2 } from "lucide-react"
+import { Mail, CheckCircle2 } from 'lucide-react'
 import { useLanguage } from "@/contexts/language-context"
 
 export function Newsletter() {
@@ -57,13 +57,13 @@ export function Newsletter() {
   }
 
   return (
-    <section id="newsletter" className="bg-[#4982A6] px-4 py-16 md:py-24">
+    <section id="newsletter" className="px-4 py-16 md:py-24 bg-[rgba(1,164,254,1)] text-[rgba(49,164,254,1)] bg-[rgba(49,164,254,1)]">
       <div className="mx-auto max-w-3xl">
         <div className="bg-white rounded-3xl p-8 md:p-12 border border-gray-100">
           {!submitted ? (
             <>
               <div className="text-center mb-8">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-[#F2A81D] to-[#4982A6] mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#FF8204] mb-4">
                   <Mail className="w-8 h-8 text-white" />
                 </div>
                 <h2 className="text-3xl md:text-4xl text-[#2D2D2D] mb-4">{t.newsletter.title}</h2>
@@ -107,7 +107,7 @@ export function Newsletter() {
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-[#F2A81D] hover:bg-[#E09815] text-white rounded-full py-6 transition-all disabled:opacity-50"
+                  className="w-full bg-brand-yellow hover:bg-brand-yellow-hover text-gray-900 rounded-full py-6 transition-all disabled:opacity-50"
                 >
                   {isSubmitting ? "Wird gesendet..." : t.newsletter.submitButton}
                 </Button>
@@ -118,7 +118,7 @@ export function Newsletter() {
           ) : (
             <div className="text-center py-8">
               <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-[#E8F3F8] mb-6 animate-bounce">
-                <CheckCircle2 className="w-10 h-10 text-[#4982A6]" />
+                <CheckCircle2 className="w-10 h-10 text-brand-blue" />
               </div>
               <h3 className="text-2xl text-[#2D2D2D] mb-4">{t.newsletter.successTitle}</h3>
               <p className="text-lg text-[#6B6B6B] mb-6">
