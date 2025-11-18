@@ -30,7 +30,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/20"></div>
       </div>
 
-      <div className="absolute top-6 left-6 md:top-9 md:left-9 z-20 h-[60px] w-[60px] md:h-[100px] md:w-[100px]">
+      <div className="absolute top-6 left-6 md:top-9 md:left-9 z-20 h-[80px] w-[80px] md:h-[100px] md:w-[100px]">
         <LogoWhite />
       </div>
 
