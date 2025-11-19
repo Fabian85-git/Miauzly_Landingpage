@@ -43,19 +43,29 @@ export function SneakPreview() {
 
   const mockups = [
     {
-      src: "/images/app-list-catowner.png",
-      alt: "Miauzly App - Katzenhalter Liste",
+      src: "/images/1-home-preview.jpg",
+      alt: "Miauzly App - Home",
       label: t.sneakPreview.mockups[0],
     },
     {
-      src: "/images/app-profile-sitter.png",
-      alt: "Miauzly App - Sitter Profil",
+      src: "/images/2-list-katzensitter-preview.jpg",
+      alt: "Miauzly App - Katzensitter Liste",
       label: t.sneakPreview.mockups[1],
     },
     {
-      src: "/images/app-forum.png",
-      alt: "Miauzly App - Forum",
+      src: "/images/3-profil-besitzer-preview.jpg",
+      alt: "Miauzly App - Besitzer Profil",
       label: t.sneakPreview.mockups[2],
+    },
+    {
+      src: "/images/4-termine-preview.jpg",
+      alt: "Miauzly App - Termine",
+      label: t.sneakPreview.mockups[3],
+    },
+    {
+      src: "/images/5-marktplatz-preview.jpg",
+      alt: "Miauzly App - Marktplatz",
+      label: t.sneakPreview.mockups[4],
     },
   ]
 
@@ -66,6 +76,7 @@ export function SneakPreview() {
           <h2 className="text-3xl md:text-5xl text-[#2D2D2D] mb-4">{t.sneakPreview.title}</h2>
         </div>
 
+        {/* Mobile carousel */}
         <div className="md:hidden mb-8">
           <div 
             ref={scrollRef}
@@ -110,24 +121,27 @@ export function SneakPreview() {
           </div>
         </div>
 
-        {/* Desktop grid remains unchanged */}
-        <div className="hidden md:grid md:grid-cols-3 gap-8 mb-8">
-          {mockups.map((mockup, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <div className="bg-[#2D2D2D] rounded-[2rem] p-2 w-full max-w-[280px]">
-                <div className="bg-white rounded-[1.5rem] overflow-hidden">
-                  <Image
-                    src={mockup.src || "/placeholder.svg"}
-                    alt={mockup.alt}
-                    width={280}
-                    height={560}
-                    className="w-full h-auto"
-                  />
+        <div className="hidden md:block mb-8">
+          <div className="overflow-x-auto">
+            <div className="flex gap-8 pb-4">
+              {mockups.map((mockup, index) => (
+                <div key={index} className="flex flex-col items-center flex-shrink-0">
+                  <div className="bg-[#2D2D2D] rounded-[2rem] p-2 w-[280px]">
+                    <div className="bg-white rounded-[1.5rem] overflow-hidden">
+                      <Image
+                        src={mockup.src || "/placeholder.svg"}
+                        alt={mockup.alt}
+                        width={280}
+                        height={560}
+                        className="w-full h-auto"
+                      />
+                    </div>
+                  </div>
+                  <p className="mt-4 text-sm text-[#6B6B6B]">{mockup.label}</p>
                 </div>
-              </div>
-              <p className="mt-4 text-sm text-[#6B6B6B]">{mockup.label}</p>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
 
         <div className="text-center max-w-2xl mx-auto">
