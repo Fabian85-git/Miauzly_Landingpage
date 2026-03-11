@@ -199,7 +199,7 @@ export const translations = {
       sections: {
         responsible: {
           title: "Verantwortlich für den Inhalt dieser Website:",
-          content: ["Miauzly", "Musterstr. 200", "8000 Zürich", "E-Mail: hello@miauzly.ch"],
+          content: ["Miauzly", "E-Mail: hello@miauzly.ch"],
         },
         disclaimer: {
           title: "Haftungsausschluss",
@@ -406,7 +406,7 @@ export const translations = {
       sections: {
         responsible: {
           title: "Responsible for the content of this website:",
-          content: ["Miauzly", "Musterstr. 200", "8000 Zurich", "Email: hello@miauzly.ch"],
+          content: ["Miauzly", "Email: hello@miauzly.ch"],
         },
         disclaimer: {
           title: "Disclaimer",
