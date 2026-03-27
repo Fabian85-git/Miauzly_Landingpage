@@ -188,7 +188,7 @@ export const translations = {
           title: "8. Änderungen dieser Datenschutzerklärung",
           content: [
             "Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf anzupassen. Die jeweils aktuelle Version ist jederzeit auf dieser Seite abrufbar.",
-            "Letzte Aktualisierung: November 2025",
+            "Letzte Aktualisierung: März 2026",
           ],
         },
       },
@@ -208,7 +208,7 @@ export const translations = {
           ],
         },
         lastUpdate: {
-          content: "Letzte Aktualisierung: November 2025",
+          content:           "Letzte Aktualisierung: März 2026",
         },
       },
     },
@@ -395,7 +395,7 @@ export const translations = {
           title: "8. Changes to this Privacy Policy",
           content: [
             "We reserve the right to update this privacy policy as needed. The current version is always available on this page.",
-            "Last updated: November 2025",
+            "Last updated: March 2026",
           ],
         },
       },
@@ -415,7 +415,7 @@ export const translations = {
           ],
         },
         lastUpdate: {
-          content: "Last updated: November 2025",
+          content:           "Last updated: March 2026",
         },
       },
     },
