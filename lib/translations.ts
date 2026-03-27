@@ -128,7 +128,7 @@ export const translations = {
       },
       contact: "hello@miauzly.ch",
       social: "Folge uns",
-      copyright: "© 2025 miauzly.ch – Mit ❤️ für Katzen gemacht",
+      copyright: "© 2026 miauzly.ch – Mit ❤️ für Katzen gemacht",
       madeWith: "",
     },
     privacy: {
@@ -339,7 +339,7 @@ export const translations = {
       },
       contact: "hello@miauzly.ch",
       social: "Follow us",
-      copyright: "© 2025 miauzly.ch – Made with ❤️ for cats",
+      copyright: "© 2026 miauzly.ch – Made with ❤️ for cats",
       madeWith: "",
     },
     privacy: {
