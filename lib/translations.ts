@@ -60,7 +60,7 @@ export const translations = {
       features: [
         {
           title: "Nur für Katzen",
-          description: "Spezialisiert auf die Bedürfnisse von Katzenhalter:innen",
+          description: "Keine All-in-One-Plattform sondern spezialisiert auf echte Katzenbedürfnisse\n",
         },
         {
           title: "Community-basiert",
@@ -273,7 +273,7 @@ export const translations = {
       features: [
         {
           title: "Cats only",
-          description: "Specialized in the needs of cat owners",
+          description: "Not an all-in-one platform but specialized in genuine cat needs\n",
         },
         {
           title: "Community-based",
