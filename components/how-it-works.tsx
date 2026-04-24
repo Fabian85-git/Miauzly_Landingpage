@@ -31,7 +31,7 @@ export function HowItWorks() {
                       </div>
                       <div className="flex-1">
                         {step.label && (
-                          <span className="font-semibold text-[#2D2D2D] text-base">
+                          <span className="font-normal text-[#2D2D2D] text-base">
                             {step.label}
                             {step.description ? ": " : ""}
                           </span>
