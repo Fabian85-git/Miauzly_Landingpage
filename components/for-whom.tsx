@@ -35,7 +35,7 @@ export function ForWhom() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {t.forWhom.audiences.map((audience, index) => (
-            <div key={index} className="rounded-3xl p-8 transition-all bg-white shadow-md">
+            <div key={index} className="rounded-3xl p-8 transition-all bg-white shadow-[0_8px_40px_rgba(0,0,0,0.18)]">
               <div className="flex flex-col gap-4 mb-6 items-start">
                 {icons[index]}
                 <h3 className="text-[#2D2D2D] font-bold text-center text-2xl">{audience.title}</h3>
