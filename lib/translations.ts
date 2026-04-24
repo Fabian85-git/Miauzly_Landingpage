@@ -54,8 +54,8 @@ export const translations = {
     whyMiauzly: {
       title: "Warum miauzly?",
       intro: [
-        "Wir sind selbst Katzenbesitzer. Und jedes Mal, wenn Ferien oder ein spontaner Ausflug ansteht, kommt dieselbe Sorge: Wer kümmert sich um unsere Fellnasen? Jede Katze hat eigene Bedürfnisse. Und wir wünschen uns jemanden, der während unserer Abwesenheit genauso liebevoll aufpasst wie wir selbst. Weil uns diese Frage so oft beschäftigt hat, haben wir miauzly.ch gegründet: eine Plattform von Katzenfans für Katzenfans in der Schweiz.",
-        "Hier kannst du dich mit Katzenhalter:innen in deiner Nähe vernetzen, euch gegenseitig kostenlos unterstützen und dabei Geld sparen. Oder du findest liebevolle Katzensitter gegen Bezahlung.",
+        "Wir sind selber Katzenhalter. Und jedes Mal, wenn Ferien oder ein spontaner Ausflug ansteht, kommt dieselbe Sorge: Wer kümmert sich um unsere Fellnasen. Denn jede Katze hat ihren eigenen Charakter, ihre Routinen und Bedürfnisse. Und wir wünschen uns jemanden, der sie genauso liebevoll betreut, wie wir es selbst tun würden.",
+        "Zwar gibt es bereits Plattformen für Tierbetreuung. Doch oft wirken sie unpersönlich, sind mit zusätzlichen Servicegebühren verbunden und vor allem: Keine ist auf Katzen spezialisiert.\n\nAus diesem Bedürfnis ist miauzly.ch entstanden: Ein Ort, an dem Katzenfans zusammenfinden. Wo Verständnis, Vertrauen und echte Katzenliebe im Mittelpunkt stehen. \nVon Katzenfans für Katzenfans.\n",
       ],
       features: [
         {
@@ -267,8 +267,8 @@ export const translations = {
     whyMiauzly: {
       title: "Why miauzly?",
       intro: [
-        "We are cat owners ourselves. And every time a vacation or spontaneous trip comes up, the same worry arises: Who will take care of our furry friends? Every cat has its own needs. And we want someone who cares as lovingly as we do during our absence. Because this question has occupied us so often, we founded miauzly.ch: a platform by cat lovers for cat lovers in Switzerland.",
-        "Here you can connect with cat owners nearby, support each other for free and save money. Or you can find loving cat sitters for a fee.",
+        "We are cat owners ourselves. And every time a vacation or spontaneous trip comes up, the same worry arises: Who will take care of our furry friends? Each cat has its own character, routines, and needs. And we want someone who cares for them as lovingly as we would.",
+        "While there are already platforms for pet care, they often seem impersonal, come with additional service fees, and most importantly: none are specialized for cats.\n\nFrom this need, miauzly.ch was born: A place where cat lovers come together. Where understanding, trust, and genuine cat love are at the center.\nBy cat lovers, for cat lovers.\n",
       ],
       features: [
         {
