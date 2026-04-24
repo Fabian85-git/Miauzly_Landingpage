@@ -11,21 +11,27 @@ export const translations = {
       waitlist: "Trage dich auf die Warteliste ein und erfahre, wenn miauzly startet.",
     },
     howItWorks: {
-      title: "So einfach funktioniert's",
-      steps: [
+      title: "Wie funktioniert miauzly?",
+      audiences: [
         {
-          title: "Profil erstellen",
-          description: "Profil erstellen als Katzenbesitzer:in oder Sitter",
+          title: "Für Katzenhalter:innen",
+          steps: [
+            { label: "Kostenloses Login", description: "Registriere dich kostenlos und buche vertrauensvolle Katzensitter gegen Bezahlung" },
+            { label: "Abo-Modell", description: "Vernetze dich mit Katzenhalter:innen in deiner Nähe und organisiert kostenlose, gegenseitige Betreuung" },
+            { label: "", description: "Buche Katzensitter gegen Bezahlung, wann immer du zusätzliche Unterstützung brauchst" },
+            { label: "", description: "Erhalte Zugang zum Forum für Tipps, Fragen und Austausch sowie Marktplatz" },
+          ],
+          note: "Katzenhalter:innen können auch selbst als Catsitter aktiv werden",
         },
         {
-          title: "Vernetzen",
-          description:
-            "Vernetze dich mit Katzenfans in deiner Nähe für gegenseitige, kostenlose Betreuung oder finde verlässliche Katzensitter gegen Bezahlung!",
-        },
-        {
-          title: "Kennenlernen",
-          description:
-            "Lernt euch persönlich kennen, bevor die erste Betreuung stattfindet – für ein gutes Gefühl auf beiden Seiten.",
+          title: "Für Katzensitter:innen",
+          steps: [
+            { label: "", description: "Erstelle dein persönliches Profil und zeige deine Erfahrung" },
+            { label: "", description: "Bewirb dich auf Buchungen oder werde direkt angefragt" },
+            { label: "Faire Provision (15%)", description: "" },
+            { label: "", description: "Sammle Bewertungen, baue Vertrauen auf und erhalte dadurch mehr Buchungen" },
+          ],
+          note: "",
         },
       ],
     },
@@ -229,20 +235,27 @@ export const translations = {
       waitlist: "Sign up for the waiting list and find out when miauzly launches.",
     },
     howItWorks: {
-      title: "How it works",
-      steps: [
+      title: "How does miauzly work?",
+      audiences: [
         {
-          title: "Create profile",
-          description: "Create a profile as a cat owner or sitter",
+          title: "For cat owners",
+          steps: [
+            { label: "Free login", description: "Register for free and book trusted cat sitters for a fee" },
+            { label: "Subscription model", description: "Connect with cat owners nearby and organise free, mutual care" },
+            { label: "", description: "Book cat sitters for a fee whenever you need extra support" },
+            { label: "", description: "Get access to the forum for tips, questions, exchange and marketplace" },
+          ],
+          note: "Cat owners can also become active as cat sitters",
         },
         {
-          title: "Connect",
-          description: "Connect with cat lovers nearby for mutual, free care or find reliable cat sitters for a fee!",
-        },
-        {
-          title: "Meet",
-          description:
-            "Get to know each other in person before the first care session – for a good feeling on both sides.",
+          title: "For cat sitters",
+          steps: [
+            { label: "", description: "Create your personal profile and showcase your experience" },
+            { label: "", description: "Apply for bookings or get requested directly" },
+            { label: "Fair commission (15%)", description: "" },
+            { label: "", description: "Collect reviews, build trust and receive more bookings" },
+          ],
+          note: "",
         },
       ],
     },

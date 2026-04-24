@@ -1,34 +1,55 @@
 "use client"
 
-import { UserCircle, Search, Handshake } from 'lucide-react'
 import { useLanguage } from "@/contexts/language-context"
+import { ArrowRight } from "lucide-react"
 
 export function HowItWorks() {
   const { t } = useLanguage()
 
-  const icons = [
-    <UserCircle key="user" className="size-11" />,
-    <Search key="search" className="size-11" />,
-    <Handshake key="handshake" className="size-11" />,
-  ]
-
   return (
-    <section className="bg-white px-4 py-16 md:py-24">
+    <section className="bg-[#F9F9F9] px-4 py-16 md:py-24">
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl text-[#2D2D2D] mb-4">{t.howItWorks.title}</h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
-          {t.howItWorks.steps.map((step, index) => (
-            <div key={index} className="relative text-center">
-              <div className="relative z-10 flex flex-col items-center">
-                <div className="mb-4 rounded-full bg-gradient-to-br from-[#01A752] to-[#01A752] flex items-center justify-center w-[84px] h-[84px] text-white text-white bg-destructive">
-                  {icons[index]}
-                </div>
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          {t.howItWorks.audiences.map((audience, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-3xl p-8 shadow-[0_8px_40px_rgba(0,0,0,0.18)]"
+            >
+              <h3 className="text-xl font-bold text-[#2D2D2D] mb-6">{audience.title}</h3>
 
-                <p className="text-[#2D2D2D] text-lg leading-relaxed">{step.description}</p>
-              </div>
+              <ul className="space-y-4">
+                {audience.steps.map((step, stepIndex) => {
+                  if (!step.label && !step.description) return null
+                  return (
+                    <li key={stepIndex} className="flex items-start gap-3">
+                      <div className="w-6 h-6 rounded-full bg-[#FFC736] flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <ArrowRight className="w-3.5 h-3.5 text-[#2D2D2D]" />
+                      </div>
+                      <div className="flex-1">
+                        {step.label && (
+                          <span className="font-semibold text-[#2D2D2D] text-base">
+                            {step.label}
+                            {step.description ? ": " : ""}
+                          </span>
+                        )}
+                        {step.description && (
+                          <span className="text-[#6B6B6B] text-base">{step.description}</span>
+                        )}
+                      </div>
+                    </li>
+                  )
+                })}
+              </ul>
+
+              {audience.note && (
+                <p className="mt-6 text-sm text-[#6B6B6B] italic border-t border-gray-100 pt-4">
+                  {audience.note}
+                </p>
+              )}
             </div>
           ))}
         </div>
