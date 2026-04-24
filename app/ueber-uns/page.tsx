@@ -34,20 +34,20 @@ export default function UeberUnsPage() {
       </header>
 
       {/* Content */}
-      <main className="flex-1 mx-auto max-w-4xl px-4 py-12 font-sans">
+      <main className="flex-1 w-full max-w-4xl mx-auto px-4 py-12">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-gray-600 hover:text-brand-blue transition-colors mb-8"
+          className="inline-flex items-center gap-2 text-gray-600 hover:text-[#4982A6] transition-colors mb-8"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>{t.aboutUs.backLink}</span>
         </Link>
 
-        <h1 className="text-4xl md:text-5xl mb-12 font-sans">{t.aboutUs.title}</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-12 text-[#2D2D2D]">{t.aboutUs.title}</h1>
 
         <div className="bg-[#FF8204] rounded-3xl p-8 md:p-12 text-white">
-          <div className="flex flex-col items-center text-center">
-            <div className="w-36 h-36 rounded-full overflow-hidden mb-8">
+          <div className="flex flex-col items-center text-center gap-8">
+            <div className="w-36 h-36 rounded-full overflow-hidden flex-shrink-0">
               <Image
                 src="/images/rubi-ramiro.png"
                 alt="Rubi & Ramiro"
@@ -57,7 +57,7 @@ export default function UeberUnsPage() {
               />
             </div>
 
-            <div className="space-y-4 text-white text-xl leading-relaxed">
+            <div className="space-y-5 text-white text-xl leading-relaxed max-w-2xl">
               {t.aboutUs.text.map((paragraph, index) => (
                 <p key={index}>{paragraph}</p>
               ))}
