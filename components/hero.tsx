@@ -44,7 +44,7 @@ export function Hero() {
               <span className="text-sm text-white">{t.hero.badge}</span>
             </div> */}
 
-            <h1 className="md:text-6xl lg:text-6xl leading-none text-white mb-6 text-left text-5xl tracking-normal font-normal leading-3">
+            <h1 className="text-5xl md:text-6xl leading-tight text-white mb-6 text-left tracking-normal font-normal">
               {t.hero.title}
             </h1>
 
