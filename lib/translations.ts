@@ -218,7 +218,7 @@ export const translations = {
   en: {
     hero: {
       badge: "Coming soon in Switzerland",
-      title: "Find loving cat sitters or share your love for cats",
+      title: "The first Swiss cat community where loving care is not just booked, but also shared.",
       description:
         "Coming soon: miauzly.ch is the new platform by cat lovers for cat lovers in Switzerland. Connect with cat owners nearby for mutual care exchange or find reliable cat sitters for a fee.",
       cta: "Join the waiting list now",
