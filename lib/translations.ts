@@ -88,6 +88,8 @@ export const translations = {
     },
     aboutUs: {
       title: "Über uns",
+      backLink: "Zurück",
+      navLabel: "Über uns",
       text: [
         "Die Inspiration für Miauzly entstand durch meine beiden Mitbewohner und eigentlichen Chefs des Hauses: Rubio & Ramiro, zwei blinde, ehemalige Strassenkater.",
         "Jedes Mal, wenn ich verreisen wollte, stand ich vor der Herausforderung, jemanden zu finden, der sich liebevoll und zuverlässig um meine Fellnasen kümmert – so, als wären es die eigenen Katzen. Professionelle Betreuung ist dabei oft kostspielig und nicht für jede*n leicht zugänglich.",
@@ -299,6 +301,8 @@ export const translations = {
     },
     aboutUs: {
       title: "About us",
+      backLink: "Back",
+      navLabel: "About us",
       text: [
         "The inspiration for Miauzly came from my two roommates and actual bosses of the house: Rubio & Ramiro, two blind, former street cats.",
         "Every time I wanted to travel, I faced the challenge of finding someone to care for my furry friends lovingly and reliably – as if they were their own cats. Professional care is often expensive and not easily accessible for everyone.",

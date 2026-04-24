@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { LogoWhite } from "@/components/logo-white"
 import { LanguageToggle } from "@/components/language-toggle"
 import { useLanguage } from "@/contexts/language-context"
@@ -25,9 +26,15 @@ export function Hero() {
         <LogoWhite />
       </div>
 
-      <div className="absolute top-6 right-6 md:top-9 md:right-9 z-20">
+      <nav className="absolute top-0 left-0 right-0 z-20 flex items-center justify-end px-6 md:px-9 pt-6 md:pt-9 gap-4 md:gap-6">
+        <Link
+          href="/ueber-uns"
+          className="text-white/90 hover:text-white text-sm md:text-base font-medium transition-colors"
+        >
+          {t.aboutUs.navLabel}
+        </Link>
         <LanguageToggle />
-      </div>
+      </nav>
 
       {/* Content */}
       <div className="relative z-10 w-full px-4 pt-40 pb-16 md:pt-52 md:pb-24 lg:pt-56 lg:pb-32">
