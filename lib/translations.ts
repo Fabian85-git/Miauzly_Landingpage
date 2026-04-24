@@ -35,18 +35,18 @@ export const translations = {
         {
           title: "Für Katzenhalter:innen",
           benefits: [
-            "Mit Katzenbesitzer*innen in der Nähe vernetzen & Betreuung tauschen",
-            "Finde liebevolle Katzensitter gegen Bezahlung",
-            "Marktplatz für Zubehör & Services",
-            "Forum für Fragen, Tipps & Austausch",
+            "Vernetze dich mit Katzenhalter:innen in deiner Nähe",
+            "Unterstützt euch bei der Betreuung – im Tausch und ohne Kosten\n",
+            "Oder finde liebevolle, verifizierte Katzensitter gegen Bezahlung\n",
+            "Stelle Fragen, teile Tipps und tausche dich im Forum aus\n",
           ],
         },
         {
           title: "Für Katzensitter:innen",
           benefits: [
-            "Katzenliebe teilen – und dabei etwas dazuverdienen",
-            "Bestimme selbst, wann du verfügbar bist",
-            "Werde Teil einer liebevollen Katzen-Community",
+            "Teile deine Katzenliebe – und verdiene dabei flexibel dazu\n",
+            "Bestimme selbst, wann und wie oft du verfügbar bist\n",
+            "Werde Teil einer lokalen Community von Katzenfans\n",
           ],
         },
       ],
@@ -252,18 +252,18 @@ export const translations = {
         {
           title: "For cat owners",
           benefits: [
-            "Connect with nearby cat owners & exchange care",
-            "Find loving cat sitters for a fee",
-            "Marketplace for accessories & services",
-            "Forum for questions, tips & exchange",
+            "Connect with cat owners in your area",
+            "Support each other with care – free exchange or payment\n",
+            "Or find loving, verified cat sitters for a fee\n",
+            "Ask questions, share tips, and exchange in the forum\n",
           ],
         },
         {
           title: "For cat sitters",
           benefits: [
-            "Share your love for cats – and earn some extra money",
-            "Decide yourself when you are available",
-            "Become part of a loving cat community",
+            "Share your love for cats – and earn flexibly\n",
+            "Decide yourself when and how often you are available\n",
+            "Become part of a local community of cat lovers\n",
           ],
         },
       ],
