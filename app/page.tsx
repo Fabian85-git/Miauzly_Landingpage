@@ -11,8 +11,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Hero />
-      <ForWhom />
       <WhyMiauzly />
+      <ForWhom />
       {/* <HowItWorks /> */}
       <SneakPreview />
       <Newsletter />
