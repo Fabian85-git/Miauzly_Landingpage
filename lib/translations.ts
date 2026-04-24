@@ -6,7 +6,7 @@ export const translations = {
       badge: "Bald verfügbar in der Schweiz",
       title: "Die erste Schweizer Katzen-Community, bei der liebevolle Betreuung nicht nur gebucht, sondern auch geteilt wird.",
       description:
-        "Bald verfügbar: miauzly.ch ist die neue Plattform von Katzenfans für Katzenfans in der Schweiz. Verbinde dich bei uns mit Katzenhalter*innen in deiner Nähe für gegenseitige Betreuung im Tausch oder finde liebevolle Katzensitter gegen Bezahlung.",
+        "Bald verfügbar: miauzly.ch ist die erste Schweizer Plattform von Katzenfans für Katzenfans. Finde hier vertrauensvolle Katzenbetreuung durch erfahrene Catsitter oder tausche sie kostenlos mit anderen Katzenhalter:innen in deiner Nähe.",
       cta: "Auf Interessentenliste setzen",
       waitlist: "Trage dich auf die Warteliste ein und erfahre, wenn miauzly startet.",
     },
