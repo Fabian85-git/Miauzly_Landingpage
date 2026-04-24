@@ -43,7 +43,7 @@ export default function UeberUnsPage() {
           <span>{t.aboutUs.backLink}</span>
         </Link>
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-12 text-[#2D2D2D]">{t.aboutUs.title}</h1>
+        <h1 className="text-4xl md:text-5xl font-normal mb-12 text-[#2D2D2D]">{t.aboutUs.title}</h1>
 
         <div className="bg-[#FF8204] rounded-3xl p-8 md:p-12 text-white">
           <div className="flex flex-col items-center text-center gap-8">
