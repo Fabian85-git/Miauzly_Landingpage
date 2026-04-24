@@ -1,6 +1,6 @@
 "use client"
 import { useLanguage } from "@/contexts/language-context"
-import { Cat, Handshake, BadgeCheckIcon, Lightbulb, MapPinIcon } from "lucide-react"
+import { Cat, Handshake, BadgeCheckIcon, Lightbulb, MapPinIcon, Banknote } from "lucide-react"
 
 export function WhyMiauzly() {
   const { t } = useLanguage()
@@ -11,6 +11,7 @@ export function WhyMiauzly() {
     <BadgeCheckIcon key="home" className="w-7 h-7 text-background" />,
     <Lightbulb key="lightbulb" className="w-7 h-7 text-background" />,
     <MapPinIcon key="mappin" className="w-7 h-7 text-background" />,
+    <Banknote key="banknote" className="w-7 h-7 text-background" />,
   ]
 
   return (
