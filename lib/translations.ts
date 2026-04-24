@@ -63,15 +63,15 @@ export const translations = {
           description: "Keine All-in-One-Plattform sondern spezialisiert auf echte Katzenbedürfnisse\n",
         },
         {
-          title: "Community-basiert",
-          description: "gegenseitig helfen statt anonym buchen",
+          title: "Echte Community",
+          description: "Lerne Katzenfans in deiner Nähe kennen",
         },
         {
           title: "Vertrauensvoll",
-          description: "Profile, Bewertungen, Verifizierung",
+          description: "Echte Bewertungen und geprüfte Mitglieder",
         },
         {
-          title: "Flexibel",
+          title: "Flexibel für jedes Budget",
           description: "Bezahlt oder kostenlos gegen gegenseitige Katzenbetreuung",
         },
         {
@@ -276,15 +276,15 @@ export const translations = {
           description: "Not an all-in-one platform but specialized in genuine cat needs\n",
         },
         {
-          title: "Community-based",
-          description: "help each other instead of anonymous booking",
+          title: "Real Community",
+          description: "Meet cat lovers in your area",
         },
         {
           title: "Trustworthy",
-          description: "Profiles, reviews, verification",
+          description: "Real reviews and verified members",
         },
         {
-          title: "Flexible",
+          title: "Flexible for every budget",
           description: "Paid or free in exchange for mutual cat care",
         },
         {
