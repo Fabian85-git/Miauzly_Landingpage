@@ -44,7 +44,7 @@ export function Hero() {
               <span className="text-sm text-white">{t.hero.badge}</span>
             </div> */}
 
-            <h1 className="text-5xl md:text-6xl leading-tight text-white mb-6 text-left tracking-normal font-normal">
+            <h1 className="text-5xl md:text-6xl leading-tight text-white mb-6 text-left tracking-normal font-normal" style={{ fontSize: "57px" }}>
               {t.hero.title}
             </h1>
 
