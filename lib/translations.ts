@@ -78,6 +78,10 @@ export const translations = {
           title: "Schweizer Plattform",
           description: "lokal, ehrlich, transparent",
         },
+        {
+          title: "Mehr für dich",
+          description: "Keine zusätzlichen Servicegebühren für Katzenhalter:innen, faire Provision für Catsitter",
+        },
       ],
     },
     sneakPreview: {
@@ -290,6 +294,10 @@ export const translations = {
         {
           title: "Swiss platform",
           description: "local, honest, transparent",
+        },
+        {
+          title: "More for you",
+          description: "No additional service fees for cat owners, fair commission for cat sitters",
         },
       ],
     },
