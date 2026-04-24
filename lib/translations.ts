@@ -101,10 +101,7 @@ export const translations = {
       backLink: "Zurück",
       navLabel: "Über uns",
       text: [
-        "Die Inspiration für Miauzly entstand durch meine beiden Mitbewohner und eigentlichen Chefs des Hauses: Rubio & Ramiro, zwei blinde, ehemalige Strassenkater.",
-        "Jedes Mal, wenn ich verreisen wollte, stand ich vor der Herausforderung, jemanden zu finden, der sich liebevoll und zuverlässig um meine Fellnasen kümmert – so, als wären es die eigenen Katzen. Professionelle Betreuung ist dabei oft kostspielig und nicht für jede*n leicht zugänglich.",
-        "Glücklicherweise habe ich in meinem nahen Umfeld viele tolle Menschen mit Katzen, mit denen wir uns austauschen, gegenseitig unterstützen und auch bei der Ferienbetreuung helfen.",
-        "Ich dachte mir: So ein Netzwerk sollte jede*r haben. Aus diesem Gedanken entstand Miauzly – eine Schweizer Community, die Katzenbesitzer*innen verbindet, Erfahrungsaustausch ermöglicht und Menschen zusammenbringt, die Katzen lieben.",
+        "Die Inspiration für miauzly entstand durch meine beiden Mitbewohner und eigentlichen Chefs des Hauses: Rubio & Ramiro, zwei blinde, ehemalige Strassenkater. Vor jeder Reise stehe ich vor derselben Frage: Wer kümmert sich liebevoll und zuverlässig um meine Fellnasen? Professionelle Betreuung ist oft kostspielig oder schwer zugänglich. Zum Glück habe ich ein Netzwerk aus Menschen mit eigenen Katzen und vertrauenswürdigen Katzensitter*innen. Wir tauschen uns aus und helfen uns gegenseitig bei der Ferienbetreuung aus. Da wurde mir klar: So ein Netzwerk sollten alle Katzenfans haben.",
       ],
     },
     newsletter: {
@@ -325,10 +322,7 @@ export const translations = {
       backLink: "Back",
       navLabel: "About us",
       text: [
-        "The inspiration for Miauzly came from my two roommates and actual bosses of the house: Rubio & Ramiro, two blind, former street cats.",
-        "Every time I wanted to travel, I faced the challenge of finding someone to care for my furry friends lovingly and reliably – as if they were their own cats. Professional care is often expensive and not easily accessible for everyone.",
-        "Fortunately, I have many wonderful people with cats in my close circle, with whom we exchange experiences, support each other, and also help with vacation care.",
-        "I thought to myself: Everyone should have such a network. From this thought, Miauzly was born – a Swiss community that connects cat owners, enables experience exchange, and brings together people who love cats.",
+        "The inspiration for miauzly came from my two roommates and actual bosses of the house: Rubio & Ramiro, two blind, former street cats. Before every trip, I face the same question: Who will care for my furry friends lovingly and reliably? Professional care is often expensive or hard to access. Luckily, I have a network of people with their own cats and trustworthy cat sitters. We share tips and help each other out with vacation care. That's when I realised: Every cat lover should have a network like this.",
       ],
     },
     newsletter: {
