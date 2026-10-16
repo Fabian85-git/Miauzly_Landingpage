@@ -54,7 +54,7 @@ export default function ImpressumPage() {
               <p key={index} className={index > 0 ? "mt-2" : ""}>
                 {index === 0 ? (
                   <strong>{text}</strong>
-                ) : index === 3 ? (
+                ) : index === 1 ? (
                   <>
                     E-Mail:{" "}
                     <a href="mailto:hello@miauzly.ch" className="text-brand-blue hover:underline">
