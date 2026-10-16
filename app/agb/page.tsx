@@ -6,8 +6,9 @@ import { ArrowLeft } from "lucide-react"
 import { Footer } from "@/components/footer"
 import { LogoWhite } from "@/components/logo-white"
 import { LanguageToggle } from "@/components/language-toggle"
+import { useLanguage } from "@/contexts/language-context"
 
-const sections = [
+const germanSections = [
   {
     title: "1. Anbieterin und Geltungsbereich",
     paragraphs: [
@@ -125,7 +126,28 @@ const sections = [
   },
 ]
 
+const englishSections = [
+  { title: "1. Provider and Scope", paragraphs: ["1.1 The Miauzly platform (miauzly.ch and my.miauzly.ch, hereinafter “Miauzly” or “Platform”) is operated by Studio 2311 GmbH, Steinberggasse 20, 8400 Winterthur, Switzerland (hereinafter “we”). Contact: hello@miauzly.ch", "1.2 These Terms and Conditions (“Terms”) apply to all persons using the Platform, in particular pet owners (“Owners”) and pet sitters (“Sitters”), together “Users”.", "1.3 By registering for or using the Platform, you accept these Terms in their current version.", "1.4 These Terms are available in German and English. In case of discrepancies, the German version prevails."] },
+  { title: "2. Role of Miauzly", paragraphs: ["2.1 Miauzly is an intermediary platform. We connect Owners and Sitters and provide the technical infrastructure for booking, communication and payment.", "2.2 The contract for pet care (“Care Contract”) is concluded exclusively between the Owner and the Sitter. Miauzly is not a party to the Care Contract and does not provide any pet care services.", "2.3 Sitters act independently and on their own responsibility. They are neither employees nor agents of Miauzly. Sitters are themselves responsible for complying with their legal obligations, in particular regarding taxes, social security contributions (e.g. AHV) and, where applicable, value added tax.", "2.4 Miauzly makes no warranty as to the availability, quality, reliability or suitability of any Sitter or Owner."] },
+  { title: "3. Registration and Account", paragraphs: ["3.1 An account is required to use the Platform. You can register with an email address and password or with a Google account.", "3.2 Registration is only permitted for persons aged 18 or over.", "3.3 You agree to provide truthful and complete information and to keep it up to date. Only one account per person is permitted.", "3.4 You are responsible for keeping your login details confidential. If you suspect misuse, please notify us immediately at hello@miauzly.ch."] },
+  { title: "4. Booking and Pet Care", paragraphs: ["4.1 Owners can send care requests to Sitters via the Platform. A booking becomes binding as soon as the Sitter confirms the request.", "4.2 Owners must provide all information relevant to the care completely and accurately, in particular regarding the animal’s health, medication, feeding and behaviour, as well as access to the home and key handover.", "4.3 Sitters agree to provide the care carefully, reliably and as agreed with the Owner, and to inform the Owner immediately of any irregularities or problems.", "4.4 In an emergency, the Sitter may take the animal to a veterinarian without prior consultation if the Owner cannot be reached in time. The costs of veterinary treatment are borne by the Owner.", "4.5 Owners and Sitters arrange the handover and return of keys directly between themselves."] },
+  { title: "5. Prices, Fees and Payment", paragraphs: ["5.1 The price for the care is set by the Sitter and shown at the time of booking. All prices are in Swiss francs (CHF) [including VAT, where applicable].", "5.2 For its intermediary services, Miauzly charges a service fee of 15% of the care price plus CHF 1.00 per booking. The service fee is deducted from the care price before it is paid out to the Sitter. The service fee includes VAT.", "5.3 Payments are processed by our payment service provider Stripe, whose terms of use also apply. The Owner is charged when the booking is confirmed.", "5.4 Payment to the Sitter is generally made within 3–5 working days after the care has ended, to the bank account on file.", "5.5 Miauzly may withhold payouts in the event of a complaint, suspected misuse or a dispute until the matter has been resolved."] },
+  { title: "6. Cancellation and Refunds", paragraphs: ["6.1 If the Owner cancels a booking more than 24 hours before the care begins, the amount paid is refunded in full.", "6.2 If the Owner cancels a booking less than 24 hours before the care begins, 50% of the amount paid is refunded.", "6.3 If the Sitter cancels a confirmed booking or does not show up, the Owner receives a full refund. If a Sitter cancels repeatedly, Miauzly may restrict or suspend their account.", "6.4 Complaints about a care service must be sent to hello@miauzly.ch within 48 hours after it has ended."] },
+  { title: "7. Subscription and Swaps", paragraphs: ["7.1 Miauzly offers a paid subscription for CHF 9.00 per month. The subscription allows members to exchange care with other subscribers on a mutual basis and without a service fee (“Swaps”).", "7.2 The subscription renews automatically for one further month at a time and can be cancelled at any time in the account settings, effective at the end of the current billing period. Amounts already paid are not refunded pro rata.", "7.3 Care provided through Swaps is free of charge and on a mutual basis. The provisions of these Terms on care and liability apply accordingly."] },
+  { title: "8. Liability", paragraphs: ["8.1 Miauzly is not liable for damage arising in connection with a Care Contract or a Swap, in particular for injury, illness, loss or death of animals, damage to homes or property, or lost keys. Owners and Sitters are liable to each other for such damage in accordance with the statutory provisions.", "8.2 Miauzly is not liable for the uninterrupted and error-free availability of the Platform at all times, or for disruptions caused by third-party providers (e.g. payment, hosting or email services).", "8.3 To the extent permitted by law, Miauzly’s liability is excluded. Liability for unlawful intent and gross negligence remains reserved.", "8.4 We recommend that Owners and Sitters take out personal liability insurance and check whether it covers damage to animals in their care and to other people’s homes."] },
+  { title: "9. Obligations and Prohibited Conduct", paragraphs: ["9.1 It is prohibited to:"], list: ["provide false information or impersonate another person;", "book Owners or Sitters met through Miauzly directly outside the Platform in order to avoid the service fee;", "use the Platform abusively, unlawfully or to the detriment of others;", "violate animal welfare legislation."], after: ["9.2 In the event of violations, Miauzly may remove content and suspend accounts temporarily or permanently."] },
+  { title: "10. Reviews and Content", paragraphs: ["10.1 Users may submit reviews after a care service. Reviews must be truthful and objective and must not contain offensive or unlawful content.", "10.2 Miauzly reserves the right to remove reviews and content that violate these Terms or applicable law.", "10.3 By uploading content (e.g. photos, profile texts), you grant Miauzly a free, non-exclusive right to use this content for operating and presenting the Platform. You confirm that you hold the rights to this content."] },
+  { title: "11. Data Protection", paragraphs: ["Information on how we process personal data can be found in our Privacy Policy."] },
+  { title: "12. Term and Account Termination", paragraphs: ["12.1 You can delete your account at any time. Bookings already confirmed and active subscriptions remain unaffected until they have been completed or have expired.", "12.2 Miauzly may suspend or delete accounts at any time for good cause, in particular in the event of violations of these Terms."] },
+  { title: "13. Changes to these Terms", paragraphs: ["Miauzly may amend these Terms at any time. Users will be notified of changes by email or on the Platform at least 30 days before they take effect. If you continue to use the Platform after the changes take effect, the amended Terms are deemed accepted."] },
+  { title: "14. Final Provisions", paragraphs: ["14.1 Should any provision of these Terms be invalid, the validity of the remaining provisions shall not be affected.", "14.2 These Terms are governed exclusively by Swiss law.", "14.3 The place of jurisdiction is Winterthur (registered office of Studio 2311 GmbH). Consumers may in any case bring proceedings at the statutory place of jurisdiction at their place of residence."] },
+]
+
 export default function AgbPage() {
+  const { language } = useLanguage()
+  const sections = language === "en" ? englishSections : germanSections
+  const isEnglish = language === "en"
+
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
@@ -146,9 +168,9 @@ export default function AgbPage() {
       <main className="flex-1 mx-auto max-w-4xl px-4 py-12 font-sans">
         <Link href="/" className="inline-flex items-center gap-2 text-gray-600 hover:text-brand-blue transition-colors mb-8">
           <ArrowLeft className="w-4 h-4" />
-          <span>Zurück</span>
+          <span>{isEnglish ? "Back" : "Zurück"}</span>
         </Link>
-        <h1 className="text-4xl md:text-5xl mb-8 font-sans">Allgemeine Geschäftsbedingungen</h1>
+        <h1 className="text-4xl md:text-5xl mb-8 font-sans">{isEnglish ? "Terms and Conditions" : "Allgemeine Geschäftsbedingungen"}</h1>
         <div className="flex flex-col gap-8 text-gray-700 leading-relaxed">
           {sections.map((section) => (
             <section key={section.title}>
