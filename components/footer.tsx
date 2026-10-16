@@ -35,6 +35,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/agb" className="text-gray-400 hover:text-[#4ECDC4] transition-colors">
+                  {t.footer.links.agb}
+                </Link>
+              </li>
+              <li>
                 <a href="mailto:hello@miauzly.ch" className="text-gray-400 hover:text-[#4ECDC4] transition-colors">
                   hello@miauzly.ch
                 </a>

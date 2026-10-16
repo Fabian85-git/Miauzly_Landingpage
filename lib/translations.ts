@@ -132,8 +132,9 @@ export const translations = {
       legal: "Rechtliches",
       links: {
         impressum: "Impressum",
-        datenschutz: "Datenschutz",
-        kontakt: "Kontakt",
+    datenschutz: "Datenschutz",
+    agb: "AGB",
+    kontakt: "Kontakt",
       },
       contact: "hello@miauzly.ch",
       social: "Folge uns",
@@ -358,8 +359,9 @@ export const translations = {
       legal: "Legal",
       links: {
         impressum: "Imprint",
-        datenschutz: "Privacy",
-        kontakt: "Contact",
+    datenschutz: "Privacy",
+    agb: "Terms",
+    kontakt: "Contact",
       },
       contact: "hello@miauzly.ch",
       social: "Follow us",
