@@ -208,7 +208,12 @@ export const translations = {
       sections: {
         responsible: {
           title: "Verantwortlich für den Inhalt dieser Website:",
-          content: ["Miauzly", "E-Mail: hello@miauzly.ch"],
+          content: [
+            "Miauzly",
+            "E-Mail: hello@miauzly.ch",
+            "Miauzly ist ein Angebot der Studio 2311 GmbH, Steinberggasse 20, 8400 Winterthur",
+            "CHE-170.333.789",
+          ],
         },
         disclaimer: {
           title: "Haftungsausschluss",
@@ -425,7 +430,12 @@ export const translations = {
       sections: {
         responsible: {
           title: "Responsible for the content of this website:",
-          content: ["Miauzly", "Email: hello@miauzly.ch"],
+          content: [
+            "Miauzly",
+            "Email: hello@miauzly.ch",
+            "Miauzly is an offering of Studio 2311 GmbH, Steinberggasse 20, 8400 Winterthur",
+            "CHE-170.333.789",
+          ],
         },
         disclaimer: {
           title: "Disclaimer",
