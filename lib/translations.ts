@@ -208,12 +208,14 @@ export const translations = {
       backLink: "Zurück",
       sections: {
         responsible: {
-          title: "Verantwortlich für den Inhalt dieser Website:",
+          title: "Betreiberin / Verantwortlich für den Inhalt",
           content: [
-            "Miauzly",
             "E-Mail: hello@miauzly.ch",
-            "Miauzly ist ein Angebot der Studio 2311 GmbH, Steinberggasse 20, 8400 Winterthur",
-            "CHE-170.333.789",
+            "Studio 2311 GmbH",
+            "Steinberggasse 20",
+            "8400 Winterthur Schweiz",
+            "UID: CHE-170.333.789",
+            "Miauzly ist eine Marke der Studio 2311 GmbH.",
           ],
         },
         disclaimer: {
@@ -223,7 +225,7 @@ export const translations = {
           ],
         },
         lastUpdate: {
-          content:           "Letzte Aktualisierung: März 2026",
+          content: "Letzte Aktualisierung: Oktober 2026",
         },
       },
     },
@@ -431,12 +433,14 @@ export const translations = {
       backLink: "Back",
       sections: {
         responsible: {
-          title: "Responsible for the content of this website:",
+          title: "Operator / Responsible for the content",
           content: [
-            "Miauzly",
             "Email: hello@miauzly.ch",
-            "Miauzly is an offering of Studio 2311 GmbH, Steinberggasse 20, 8400 Winterthur",
-            "CHE-170.333.789",
+            "Studio 2311 GmbH",
+            "Steinberggasse 20",
+            "8400 Winterthur, Switzerland",
+            "UID: CHE-170.333.789",
+            "Miauzly is a brand of Studio 2311 GmbH.",
           ],
         },
         disclaimer: {
@@ -446,7 +450,7 @@ export const translations = {
           ],
         },
         lastUpdate: {
-          content:           "Last updated: March 2026",
+          content: "Last updated: October 2026",
         },
       },
     },

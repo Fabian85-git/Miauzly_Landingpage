@@ -53,13 +53,17 @@ export default function ImpressumPage() {
             {t.imprint.sections.responsible.content.map((text, index) => (
               <p key={index} className={index > 0 ? "mt-2" : ""}>
                 {index === 0 ? (
-                  <strong>{text}</strong>
-                ) : index === 1 ? (
                   <>
-                    E-Mail:{" "}
-                    <a href="mailto:hello@miauzly.ch" className="text-brand-blue hover:underline">
-                      hello@miauzly.ch
-                    </a>
+                    {text.startsWith("E-Mail:") || text.startsWith("Email:") ? (
+                      <>
+                        {text.split(":")[0]}:{" "}
+                        <a href="mailto:hello@miauzly.ch" className="text-brand-blue hover:underline">
+                          hello@miauzly.ch
+                        </a>
+                      </>
+                    ) : (
+                      <strong>{text}</strong>
+                    )}
                   </>
                 ) : (
                   text
