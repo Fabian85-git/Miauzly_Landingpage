@@ -6,9 +6,11 @@ export const translations = {
       badge: "Bald verfügbar in der Schweiz",
       title: "Die Schweizer Plattform für Katzenbetreuung- & Community",
       description:
-        "Bald verfügbar: miauzly.ch ist die erste Schweizer Plattform von Katzenfans für Katzenfans. Finde hier vertrauensvolle Katzenbetreuung durch erfahrene Catsitter oder tausche sie kostenlos mit anderen Katzenhalter:innen in deiner Nähe.",
-      cta: "Auf Interessentenliste setzen",
-      waitlist: "Trage dich auf die Warteliste ein und erfahre, wenn miauzly startet.",
+        "miauzly.ch ist die erste Schweizer Plattform von Katzenfans für Katzenfans. Finde hier vertrauensvolle Katzenbetreuung durch erfahrene Catsitter oder tausche sie kostenlos mit anderen Katzenhalter:innen in deiner Nähe.",
+      cta: "Jetzt kostenlos registrieren",
+      secondaryCta: "Catsitter werden",
+      waitlist: "Trag dich ein, wir halten dich auf dem Laufenden was bei miauzly läuft",
+      waitlistLink: "Auf Interessentenliste setzen",
     },
     howItWorks: {
       title: "Wie funktioniert miauzly?",
@@ -17,9 +19,7 @@ export const translations = {
           title: "Für Katzenhalter:innen",
           steps: [
             { label: "Kostenloses Login", description: "Registriere dich kostenlos und buche vertrauensvolle Katzensitter gegen Bezahlung" },
-            { label: "Abo-Modell", description: "Vernetze dich mit Katzenhalter:innen in deiner Nähe und organisiert kostenlose, gegenseitige Betreuung" },
             { label: "", description: "Buche Katzensitter gegen Bezahlung, wann immer du zusätzliche Unterstützung brauchst" },
-            { label: "", description: "Erhalte Zugang zum Forum für Tipps, Fragen und Austausch sowie Marktplatz" },
           ],
           note: "Katzenhalter:innen können auch selbst als Catsitter aktiv werden",
         },
@@ -42,9 +42,7 @@ export const translations = {
           title: "Für Katzenhalter:innen",
           benefits: [
             "Vernetze dich mit Katzenhalter:innen in deiner Nähe",
-            "Unterstützt euch bei der Betreuung – im Tausch und ohne Kosten\n",
             "Oder finde liebevolle, verifizierte Katzensitter gegen Bezahlung\n",
-            "Stelle Fragen, teile Tipps und tausche dich im Forum aus\n",
           ],
         },
         {
@@ -78,7 +76,7 @@ export const translations = {
         },
         {
           title: "Flexibel für jedes Budget",
-          description: "Bezahlt oder kostenlos gegen gegenseitige Katzenbetreuung",
+          description: "Sitter legen ihre Preise selbst fest – du wählst, was passt",
         },
         {
           title: "Schweizer Plattform",
@@ -86,15 +84,15 @@ export const translations = {
         },
         {
           title: "Mehr für dich",
-          description: "Keine zusätzlichen Servicegebühren für Katzenhalter:innen, faire Provision für Catsitter",
+          description: "Faire Preise – transparent ausgewiesen in CHF",
         },
       ],
     },
     sneakPreview: {
-      title: "Ein erster Blick auf miauzly",
+      title: "So sieht miauzly aus",
       mockups: ["Home", "Profil Halter*innen", "Termine", "Marktplatz"],
-      description: "Wir entwickeln gerade die erste Version von miauzly.ch.",
-      cta: "Melde dich an, um frühzeitig Zugang zur Beta zu erhalten",
+      description: "",
+      cta: "",
     },
     aboutUs: {
       title: "Über uns",
@@ -105,9 +103,9 @@ export const translations = {
       ],
     },
     newsletter: {
-      title: "Trag dich ein – wir halten dich auf dem Laufenden!",
-      subtitle: "Wir starten bald mit der Beta.",
-      description: "Wenn du als Erste:r dabei sein möchtest, trag deine E-Mail-Adresse ein. Keine Werbung, kein Spam.",
+      title: "Bleib auf dem Laufenden",
+      subtitle: "",
+      description: "Erhalte gelegentlich News, Katzen-Tipps und Infos zu neuen Funktionen von miauzly. Keine Werbung, kein Spam.",
       emailLabel: "E-Mail-Adresse",
       emailPlaceholder: "deine@email.ch",
       userTypeLabel: "Ich bin... (freiwillig)",
@@ -122,6 +120,8 @@ export const translations = {
       },
       submitButton: "Jetzt anmelden",
       privacy: "Mit der Anmeldung akzeptierst du unsere Datenschutzbestimmungen.",
+      accountPrompt: "Noch kein Konto?",
+      accountLink: "Jetzt auf my.miauzly.ch registrieren",
       successTitle: "Vielen Dank! 🎉",
       successMessage: "Du bist jetzt auf der Interessentenliste.",
       successSubMessage: "Wir melden uns bald bei dir!",
@@ -235,9 +235,11 @@ export const translations = {
       badge: "Coming soon in Switzerland",
       title: "The Swiss platform for cat care and community.",
       description:
-        "Coming soon: miauzly.ch is the new platform by cat lovers for cat lovers in Switzerland. Connect with cat owners nearby for mutual care exchange or find reliable cat sitters for a fee.",
-      cta: "Join the waiting list now",
-      waitlist: "Sign up for the waiting list and find out when miauzly launches.",
+        "miauzly.ch is Switzerland's first platform by cat lovers for cat lovers. Find trusted cat care from experienced cat sitters or exchange care for free with other cat owners near you.",
+      cta: "Sign up for free",
+      secondaryCta: "Become a cat sitter",
+      waitlist: "Sign up and we'll keep you updated on what's happening at miauzly",
+      waitlistLink: "Join the waiting list",
     },
     howItWorks: {
       title: "How does miauzly work?",
@@ -246,9 +248,7 @@ export const translations = {
           title: "For cat owners",
           steps: [
             { label: "Free login", description: "Register for free and book trusted cat sitters for a fee" },
-            { label: "Subscription model", description: "Connect with cat owners nearby and organise free, mutual care" },
             { label: "", description: "Book cat sitters for a fee whenever you need extra support" },
-            { label: "", description: "Get access to the forum for tips, questions, exchange and marketplace" },
           ],
           note: "Cat owners can also become active as cat sitters",
         },
@@ -271,9 +271,7 @@ export const translations = {
           title: "For cat owners",
           benefits: [
             "Connect with cat owners in your area",
-            "Support each other with care – free exchange or payment\n",
             "Or find loving, verified cat sitters for a fee\n",
-            "Ask questions, share tips, and exchange in the forum\n",
           ],
         },
         {
@@ -307,7 +305,7 @@ export const translations = {
         },
         {
           title: "Flexible for every budget",
-          description: "Paid or free in exchange for mutual cat care",
+          description: "Sitters set their own rates – you choose what fits",
         },
         {
           title: "Swiss platform",
@@ -315,15 +313,15 @@ export const translations = {
         },
         {
           title: "More for you",
-          description: "No additional service fees for cat owners, fair commission for cat sitters",
+          description: "Fair prices – clearly shown in CHF",
         },
       ],
     },
     sneakPreview: {
-      title: "A first look at miauzly",
+      title: "Take a look inside",
       mockups: ["Home", "Owner Profile", "Appointments", "Marketplace"],
-      description: "We are currently developing the first version of miauzly.ch.",
-      cta: "Sign up to get early access to the beta",
+      description: "",
+      cta: "",
     },
     aboutUs: {
       title: "About us",
@@ -334,9 +332,9 @@ export const translations = {
       ],
     },
     newsletter: {
-      title: "Sign up – we'll keep you updated!",
-      subtitle: "We're launching the beta soon.",
-      description: "If you want to be among the first, enter your email. No ads, no spam.",
+      title: "Stay in the loop",
+      subtitle: "",
+      description: "Get occasional news, cat care tips and updates on new miauzly features. No ads, no spam.",
       emailLabel: "Email address",
       emailPlaceholder: "your@email.com",
       userTypeLabel: "I am... (optional)",
@@ -351,6 +349,8 @@ export const translations = {
       },
       submitButton: "Sign up now",
       privacy: "By signing up, you accept our privacy policy.",
+      accountPrompt: "No account yet?",
+      accountLink: "Sign up now at my.miauzly.ch",
       successTitle: "Thank you! 🎉",
       successMessage: "You are now on the waiting list.",
       successSubMessage: "We'll get in touch soon!",
