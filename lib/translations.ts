@@ -9,8 +9,8 @@ export const translations = {
         "miauzly.ch ist die erste Schweizer Plattform von Katzenfans für Katzenfans. Finde vertrauensvolle Katzensitter in deiner Nähe – oder biete selbst Katzenbetreuung an.",
       cta: "Jetzt kostenlos registrieren",
       secondaryCta: "Catsitter werden",
-      waitlist: "Trag dich ein, wir halten dich auf dem Laufenden was bei miauzly läuft",
-      waitlistLink: "Auf Interessentenliste setzen",
+      waitlist: "Registrierung kostenlos · Sichere Bezahlung in CHF",
+      waitlistLink: "Newsletter abonnieren",
     },
     howItWorks: {
       title: "Wie funktioniert miauzly?",
@@ -94,10 +94,11 @@ export const translations = {
       description: "",
       cta: "",
     },
-    aboutUs: {
+      aboutUs: {
       title: "Über uns",
       backLink: "Zurück",
       navLabel: "Über uns",
+      loginLabel: "Login",
       text: [
         "Die Inspiration für miauzly entstand durch meine beiden Mitbewohner und eigentlichen Chefs des Hauses: Rubio & Ramiro, zwei blinde, ehemalige Strassenkater. Vor jeder Reise stehe ich vor derselben Frage: Wer kümmert sich liebevoll und zuverlässig um meine Fellnasen? Professionelle Betreuung ist oft kostspielig oder schwer zugänglich. Zum Glück habe ich ein Netzwerk aus Menschen mit eigenen Katzen und vertrauenswürdigen Katzensitter*innen. Wir tauschen uns aus und helfen uns gegenseitig bei der Ferienbetreuung aus. Da wurde mir klar: So ein Netzwerk sollten alle Katzenfans haben.",
       ],
@@ -238,8 +239,8 @@ export const translations = {
         "miauzly.ch is Switzerland's first platform by cat lovers for cat lovers. Find trusted cat sitters near you – or offer cat care yourself.",
       cta: "Sign up for free",
       secondaryCta: "Become a cat sitter",
-      waitlist: "Sign up and we'll keep you updated on what's happening at miauzly",
-      waitlistLink: "Join the waiting list",
+      waitlist: "Free registration · Secure payments in CHF",
+      waitlistLink: "Subscribe to newsletter",
     },
     howItWorks: {
       title: "How does miauzly work?",
@@ -327,6 +328,7 @@ export const translations = {
       title: "About us",
       backLink: "Back",
       navLabel: "About us",
+      loginLabel: "Login",
       text: [
         "The inspiration for miauzly came from my two roommates and actual bosses of the house: Rubio & Ramiro, two blind, former street cats. Before every trip, I face the same question: Who will care for my furry friends lovingly and reliably? Professional care is often expensive or hard to access. Luckily, I have a network of people with their own cats and trustworthy cat sitters. We share tips and help each other out with vacation care. That's when I realised: Every cat lover should have a network like this.",
       ],

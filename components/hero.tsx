@@ -29,6 +29,12 @@ export function Hero() {
         >
           {t.aboutUs.navLabel}
         </Link>
+        <Link
+          href="https://my.miauzly.ch"
+          className="text-white/90 hover:text-white text-sm md:text-base font-medium transition-colors"
+        >
+          {t.aboutUs.loginLabel}
+        </Link>
         <LanguageToggle />
       </nav>
 
