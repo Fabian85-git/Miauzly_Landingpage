@@ -143,9 +143,65 @@ const englishSections = [
   { title: "14. Final Provisions", paragraphs: ["14.1 Should any provision of these Terms be invalid, the validity of the remaining provisions shall not be affected.", "14.2 These Terms are governed exclusively by Swiss law.", "14.3 The place of jurisdiction is Winterthur (registered office of Studio 2311 GmbH). Consumers may in any case bring proceedings at the statutory place of jurisdiction at their place of residence."] },
 ]
 
+const updatedGermanSections = [
+  { title: "1. Anbieterin und Geltungsbereich", paragraphs: [
+    "1.1 Die Plattform Miauzly (miauzly.ch und my.miauzly.ch, nachfolgend «Miauzly» oder «Plattform») wird betrieben von der Studio 2311 GmbH, Steinberggasse 20, 8400 Winterthur, Schweiz (nachfolgend «wir»). Kontakt: hello@miauzly.ch",
+    "1.2 Diese AGB gelten für alle Personen, die die Plattform nutzen, insbesondere für Tierhalter:innen (nachfolgend «Owner») und Betreuungspersonen (nachfolgend «Sitter»), zusammen «Nutzer:innen».",
+    "1.3 Mit der Registrierung oder Nutzung der Plattform akzeptierst du diese AGB in der jeweils gültigen Fassung.",
+    "1.4 Die AGB liegen auf Deutsch und Englisch vor. Bei Widersprüchen geht die deutsche Fassung vor.",
+  ] },
+  { title: "2. Rolle von Miauzly", paragraphs: [
+    "2.1 Miauzly ist eine Vermittlungsplattform. Wir bringen Owner und Sitter zusammen und stellen die technische Infrastruktur für Buchung, Kommunikation und Zahlung bereit.",
+    "2.2 Der Vertrag über die Tierbetreuung (nachfolgend «Betreuungsvertrag») kommt ausschliesslich zwischen Owner und Sitter zustande. Miauzly ist nicht Vertragspartei des Betreuungsvertrags und erbringt keine Betreuungsleistungen.",
+    "2.3 Sitter handeln selbständig und in eigener Verantwortung. Sie sind weder Arbeitnehmende noch Beauftragte von Miauzly. Sitter sind selbst verantwortlich für die Einhaltung gesetzlicher Pflichten, insbesondere für Steuern, Sozialversicherungsbeiträge (z. B. AHV) und allenfalls die Mehrwertsteuer.",
+    "2.4 Miauzly übernimmt keine Gewähr für die Verfügbarkeit, Qualität, Zuverlässigkeit oder Eignung von Sitter oder Owner.",
+  ] },
+  { title: "3. Registrierung und Konto", paragraphs: [
+    "3.1 Für die Nutzung der Plattform ist ein Konto erforderlich. Die Registrierung erfolgt per E-Mail und Passwort oder über ein Google-Konto.",
+    "3.2 Die Registrierung ist nur Personen ab 18 Jahren gestattet.",
+    "3.3 Du verpflichtest dich, wahrheitsgetreue und vollständige Angaben zu machen und diese aktuell zu halten. Pro Person ist nur ein Konto zulässig.",
+    "3.4 Du bist für die Geheimhaltung deiner Zugangsdaten verantwortlich. Bei Verdacht auf Missbrauch informierst du uns umgehend unter hello@miauzly.ch.",
+  ] },
+  { title: "4. Buchung und Betreuung", paragraphs: [
+    "4.1 Owner können über die Plattform Betreuungsanfragen an Sitter senden. Eine Buchung wird verbindlich, sobald der Sitter die Anfrage bestätigt.",
+    "4.2 Owner sind verpflichtet, alle für die Betreuung relevanten Informationen vollständig und korrekt anzugeben, insbesondere zu Gesundheitszustand, Medikamenten, Fütterung, Verhalten des Tieres sowie zu Zugang und Schlüsselübergabe.",
+    "4.3 Sitter verpflichten sich, die Betreuung sorgfältig, zuverlässig und gemäss den Absprachen mit dem Owner durchzuführen und den Owner bei Auffälligkeiten oder Problemen umgehend zu informieren.",
+    "4.4 Im Notfall darf der Sitter das Tier ohne vorgängige Rücksprache zu einer Tierärztin oder einem Tierarzt bringen, wenn der Owner nicht rechtzeitig erreichbar ist. Die Kosten der tierärztlichen Behandlung trägt der Owner.",
+    "4.5 Die Übergabe und Rückgabe von Schlüsseln regeln Owner und Sitter direkt untereinander.",
+    "4.6 Eine Buchung gilt am Tag nach dem letzten Betreuungstag als abgeschlossen.",
+  ] },
+  { title: "5. Preise, Gebühren und Zahlung", paragraphs: [
+    "5.1 Der Preis für die Betreuung (nachfolgend «Betreuungspreis») wird vom Sitter festgelegt und vor der Buchung angezeigt. Alle Preise und Gebühren verstehen sich in Schweizer Franken (CHF).",
+    "5.2 Für die Nutzung der Plattform erhebt Miauzly folgende Gebühren: Servicegebühr für Owner: CHF 2.50 pro Buchung. Sie wird zusätzlich zum Betreuungspreis belastet und vor der Buchung im Gesamtbetrag ausgewiesen. Kommission für Sitter: 15 % des Betreuungspreises. Sie wird vom Betreuungspreis abgezogen, bevor dieser an den Sitter ausbezahlt wird. Servicegebühr und Kommission verstehen sich inkl. MWST.",
+    "5.3 Die Zahlung erfolgt über unseren Zahlungsdienstleister Stripe mit den im Bezahlvorgang angezeigten Zahlungsmitteln. Es gelten ergänzend die Nutzungsbedingungen von Stripe. Der Owner wird mit der Bestätigung der Buchung durch den Sitter belastet.",
+    "5.4 Für den Erhalt von Auszahlungen muss der Sitter sein Auszahlungskonto bei Stripe einrichten und dabei die von Stripe verlangten Angaben machen. Die Auszahlung des Betreuungspreises abzüglich Kommission wird nach Abschluss der Buchung ausgelöst; die Gutschrift auf dem Bankkonto erfolgt in der Regel innert weniger Werktage.",
+    "5.5 Miauzly ist berechtigt, Auszahlungen zurückzuhalten, wenn eine Beanstandung, ein Missbrauchsverdacht oder eine Streitigkeit vorliegt, bis der Sachverhalt geklärt ist.",
+  ] },
+  { title: "6. Stornierung und Rückerstattung", paragraphs: [
+    "6.1 Storniert der Owner eine Buchung mehr als 24 Stunden vor Beginn der Betreuung, wird der Betreuungspreis vollständig zurückerstattet. Die Servicegebühr von CHF 2.50 wird nicht zurückerstattet.",
+    "6.2 Storniert der Owner eine Buchung weniger als 24 Stunden vor Beginn der Betreuung, werden 50 % des Betreuungspreises zurückerstattet. Die Servicegebühr von CHF 2.50 wird nicht zurückerstattet. Die übrigen 50 % des Betreuungspreises werden abzüglich der Kommission von 15 % an den Sitter ausbezahlt.",
+    "6.3 Storniert der Sitter eine bestätigte Buchung oder erscheint er nicht, erhält der Owner den gesamten bezahlten Betrag inklusive Servicegebühr zurück. Bei wiederholten Stornierungen durch Sitter kann Miauzly das Konto einschränken oder sperren.",
+    "6.4 Storniert Miauzly eine Buchung (z. B. bei Missbrauch oder Verstössen gegen diese AGB), erhält der Owner den gesamten bezahlten Betrag inklusive Servicegebühr zurück, sofern ihn kein Verschulden trifft.",
+    "6.5 Rückerstattungen erfolgen auf das ursprünglich verwendete Zahlungsmittel. Die Gutschrift kann je nach Zahlungsmittel einige Werktage dauern.",
+    "6.6 Beanstandungen zu einer Betreuung sind innert 48 Stunden nach deren Ende an hello@miauzly.ch zu richten.",
+  ] },
+  { title: "7. Haftung", paragraphs: [
+    "7.1 Miauzly haftet nicht für Schäden, die im Zusammenhang mit dem Betreuungsvertrag entstehen, insbesondere nicht für Verletzung, Krankheit, Verlust oder Tod von Tieren, Schäden an Wohnung oder Eigentum sowie den Verlust von Schlüsseln. Für solche Schäden haften Owner und Sitter einander nach den gesetzlichen Bestimmungen.",
+    "7.2 Miauzly haftet nicht für eine jederzeit unterbrechungs- und fehlerfreie Verfügbarkeit der Plattform sowie für Störungen bei Drittanbietern (z. B. Zahlungs-, Hosting- oder E-Mail-Dienste).",
+    "7.3 Die Haftung von Miauzly ist, soweit gesetzlich zulässig, ausgeschlossen. Vorbehalten bleibt die Haftung für rechtswidrige Absicht und grobe Fahrlässigkeit.",
+    "7.4 Wir empfehlen Owner und Sitter, eine Privathaftpflichtversicherung abzuschliessen und zu prüfen, ob diese Schäden an betreuten Tieren und fremden Wohnungen abdeckt.",
+  ] },
+  { title: "8. Pflichten und Verbote", paragraphs: ["8.1 Es ist untersagt:"], list: ["falsche Angaben zu machen oder sich als eine andere Person auszugeben;", "Owner oder Sitter, die über Miauzly kennengelernt wurden, zur Umgehung der Gebühren direkt ausserhalb der Plattform zu buchen;", "die Plattform missbräuchlich, rechtswidrig oder zum Nachteil anderer zu nutzen;", "gegen das Tierschutzgesetz zu verstossen."], after: ["8.2 Bei Verstössen kann Miauzly Inhalte entfernen und Konten vorübergehend oder dauerhaft sperren."] },
+  { title: "9. Bewertungen und Inhalte", paragraphs: ["9.1 Nutzer:innen können nach Abschluss einer Buchung Bewertungen abgeben. Bewertungen müssen wahrheitsgetreu und sachlich sein und dürfen keine beleidigenden oder rechtswidrigen Inhalte enthalten.", "9.2 Miauzly behält sich vor, Bewertungen und Inhalte zu entfernen, die gegen diese AGB oder geltendes Recht verstossen.", "9.3 Mit dem Hochladen von Inhalten (z. B. Fotos, Profiltexte) räumst du Miauzly das unentgeltliche, nicht ausschliessliche Recht ein, diese Inhalte für den Betrieb und die Darstellung der Plattform zu nutzen. Du bestätigst, dass du die Rechte an diesen Inhalten besitzt."] },
+  { title: "10. Datenschutz", paragraphs: ["Informationen zur Bearbeitung personenbezogener Daten findest du in unserer Datenschutzerklärung."] },
+  { title: "11. Laufzeit und Kündigung des Kontos", paragraphs: ["11.1 Du kannst dein Konto jederzeit löschen. Bereits bestätigte Buchungen bleiben davon unberührt, bis sie abgewickelt sind.", "11.2 Miauzly kann Konten aus wichtigem Grund jederzeit sperren oder löschen, insbesondere bei Verstössen gegen diese AGB."] },
+  { title: "12. Änderungen der AGB", paragraphs: ["Miauzly kann diese AGB jederzeit ändern. Änderungen werden den Nutzer:innen mindestens 30 Tage vor Inkrafttreten per E-Mail oder auf der Plattform mitgeteilt. Nutzt du die Plattform nach Inkrafttreten weiter, gelten die geänderten AGB als akzeptiert."] },
+  { title: "13. Schlussbestimmungen", paragraphs: ["13.1 Sollte eine Bestimmung dieser AGB unwirksam sein, bleibt die Gültigkeit der übrigen Bestimmungen unberührt.", "13.2 Es gilt ausschliesslich schweizerisches Recht.", "13.3 Gerichtsstand ist Winterthur / Sitz der Studio 2311 GmbH. Für Konsument:innen bleibt der gesetzliche Gerichtsstand an ihrem Wohnsitz vorbehalten."] },
+]
+
 export default function AgbPage() {
   const { language } = useLanguage()
-  const sections = language === "en" ? englishSections : germanSections
+  const sections = language === "en" ? englishSections : updatedGermanSections
   const isEnglish = language === "en"
 
   useEffect(() => {
