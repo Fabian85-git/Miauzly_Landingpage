@@ -54,13 +54,6 @@ export function Hero() {
                 {t.hero.cta}
               </Link>
 
-              <Link
-                href="https://my.miauzly.ch"
-                className="text-white hover:text-brand-yellow transition-colors text-base font-medium"
-              >
-                {t.hero.secondaryCta}
-              </Link>
-
               <div className="flex flex-col items-start gap-1 text-gray-300 max-w-md text-base">
                 <span>{t.hero.waitlist}</span>
                 <Link href="#newsletter" className="underline underline-offset-4 hover:text-white transition-colors">

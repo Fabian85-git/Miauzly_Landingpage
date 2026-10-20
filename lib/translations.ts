@@ -6,7 +6,7 @@ export const translations = {
       badge: "Bald verfügbar in der Schweiz",
       title: "Die Schweizer Plattform für Katzenbetreuung- & Community",
       description:
-        "miauzly.ch ist die erste Schweizer Plattform von Katzenfans für Katzenfans. Finde hier vertrauensvolle Katzenbetreuung durch erfahrene Catsitter oder tausche sie kostenlos mit anderen Katzenhalter:innen in deiner Nähe.",
+        "miauzly.ch ist die erste Schweizer Plattform von Katzenfans für Katzenfans. Finde vertrauensvolle Katzensitter in deiner Nähe – oder biete selbst Katzenbetreuung an.",
       cta: "Jetzt kostenlos registrieren",
       secondaryCta: "Catsitter werden",
       waitlist: "Trag dich ein, wir halten dich auf dem Laufenden was bei miauzly läuft",
@@ -235,7 +235,7 @@ export const translations = {
       badge: "Coming soon in Switzerland",
       title: "The Swiss platform for cat care and community.",
       description:
-        "miauzly.ch is Switzerland's first platform by cat lovers for cat lovers. Find trusted cat care from experienced cat sitters or exchange care for free with other cat owners near you.",
+        "miauzly.ch is Switzerland's first platform by cat lovers for cat lovers. Find trusted cat sitters near you – or offer cat care yourself.",
       cta: "Sign up for free",
       secondaryCta: "Become a cat sitter",
       waitlist: "Sign up and we'll keep you updated on what's happening at miauzly",
