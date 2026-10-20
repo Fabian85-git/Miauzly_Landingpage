@@ -134,6 +134,12 @@ export function Newsletter() {
                 </button>
 
                 <p className="text-xs text-center text-[#6B6B6B]">{t.newsletter.privacy}</p>
+                <p className="text-sm text-center text-[#6B6B6B]">
+                  {t.newsletter.accountPrompt}{" "}
+                  <a href="https://my.miauzly.ch" className="underline underline-offset-4 hover:text-[#2D2D2D]">
+                    {t.newsletter.accountLink}
+                  </a>
+                </p>
               </form>
             </>
           ) : (

@@ -8,10 +8,6 @@ import { useLanguage } from "@/contexts/language-context"
 export function Hero() {
   const { t } = useLanguage()
 
-  const scrollToNewsletter = () => {
-    document.getElementById("newsletter")?.scrollIntoView({ behavior: "smooth" })
-  }
-
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Fullscreen Background Video */}
@@ -51,14 +47,19 @@ export function Hero() {
             <p className="text-xl md:text-xl text-gray-200 mb-8 max-w-2xl">{t.hero.description}</p>
 
             <div className="flex flex-col items-start gap-4 w-full md:w-auto">
-              <button
-                onClick={scrollToNewsletter}
+              <Link
+                href="https://my.miauzly.ch"
                 className="w-full md:w-auto bg-brand-yellow hover:bg-brand-yellow-hover text-gray-900 rounded-full px-10 py-6 transition-all font-medium cursor-pointer inline-flex items-center justify-center text-lg"
               >
                 {t.hero.cta}
-              </button>
+              </Link>
 
-              <p className="text-gray-300 max-w-md text-base">{t.hero.waitlist}</p>
+              <div className="flex flex-col items-start gap-1 text-gray-300 max-w-md text-base">
+                <span>{t.hero.waitlist}</span>
+                <Link href="#newsletter" className="underline underline-offset-4 hover:text-white transition-colors">
+                  {t.hero.waitlistLink}
+                </Link>
+              </div>
             </div>
           </div>
         </div>
