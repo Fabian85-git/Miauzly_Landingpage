@@ -6,6 +6,7 @@ import { WhyMiauzly } from "@/components/why-miauzly"
 import { HowItWorks } from "@/components/how-it-works"
 import { SneakPreview } from "@/components/sneak-preview"
 import { Newsletter } from "@/components/newsletter"
+import { FAQ } from "@/components/faq"
 import { Footer } from "@/components/footer"
 
 export default function Page() {
@@ -17,6 +18,7 @@ export default function Page() {
       <HowItWorks />
       <SneakPreview />
       <Newsletter />
+      <FAQ />
       <Footer />
     </div>
   )

@@ -128,6 +128,19 @@ export const translations = {
       successSubMessage: "Wir melden uns bald bei dir!",
       trustIndicators: ["Made in Switzerland", "Datenschutz garantiert", "Community first"],
     },
+    faq: {
+      title: "FAQs",
+      general: {
+        title: "Allgemeines",
+        items: [
+          { question: "Was ist Miauzly?", answer: "Miauzly ist eine Schweizer Plattform, die Katzenhalter mit Katzensitter zusammenbringt. Wir konzentrieren uns ganz auf Katzen und ihre individuellen Bedürfnisse." },
+          { question: "Was unterscheidet Miauzly von anderen Plattformen?", answer: "Miauzly ist 100% auf Katzen spezialisiert. Wir möchten Katzenhalter und Katzensitter zusammenbringen und eine vertrauensvolle Community schaffen, in der das Wohl der Katze an erster Stelle steht." },
+          { question: "In welchen Regionen ist Miauzly verfügbar?", answer: "Miauzly richtet sich an Katzenhalter und Katzensitter in der Schweiz." },
+          { question: "Welche Funktionen bietet Miauzly?", answer: "Vermittlung von Katzenhalter und Katzensitter gegen bezahlte Katzenbetreuung. Weitere Funktionen sind für die Zukunft geplant." },
+          { question: "Bietet Miauzly eine Versicherung oder Garantie für Schäden an?", answer: "Miauzly ist eine Vermittlungsplattform und bietet keine eigene Versicherung oder Schadensgarantie an. Wir empfehlen Katzenhalter und Katzensitter, ihren bestehenden Versicherungsschutz zu prüfen und offene Fragen direkt mit ihrer Versicherung zu klären." },
+        ],
+      },
+    },
     footer: {
       tagline: "Die Schweizer Plattform für Katzensitting und Community.",
       legal: "Rechtliches",
@@ -357,6 +370,19 @@ export const translations = {
       successMessage: "You are now on the waiting list.",
       successSubMessage: "We'll get in touch soon!",
       trustIndicators: ["Made in Switzerland", "Privacy guaranteed", "Community first"],
+    },
+    faq: {
+      title: "FAQs",
+      general: {
+        title: "General",
+        items: [
+          { question: "What is Miauzly?", answer: "Miauzly is a Swiss platform that connects cat owners with cat sitters. We focus entirely on cats and their individual needs." },
+          { question: "What makes Miauzly different from other platforms?", answer: "Miauzly is 100% dedicated to cats. We want to connect cat owners and cat sitters and create a trusted community where the wellbeing of the cat comes first." },
+          { question: "Which regions is Miauzly available in?", answer: "Miauzly is aimed at cat owners and cat sitters in Switzerland." },
+          { question: "What features does Miauzly offer?", answer: "Matching cat owners with cat sitters for paid cat care. More features are planned for the future." },
+          { question: "Does Miauzly offer insurance or a guarantee against damage?", answer: "Miauzly is a matching platform and does not offer its own insurance or guarantee against damage. We recommend that cat owners and cat sitters review their existing insurance coverage and clarify any open questions directly with their insurance provider." },
+        ],
+      },
     },
     footer: {
       tagline: "The Swiss platform for cat sitting and community.",
