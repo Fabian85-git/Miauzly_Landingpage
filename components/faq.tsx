@@ -12,9 +12,13 @@ export function FAQ() {
           {t.faq.title}
         </h2>
         {[t.faq.general, t.faq.owners, t.faq.sitters].map((category, index) => (
-          <details className="rounded-2xl border border-gray-200 px-6" key={category.title} open={index === 0}>
+          <details
+            className={index === 0 ? "px-6" : "border-t border-gray-200 px-6"}
+            key={category.title}
+            open={index === 0}
+          >
             <summary className="cursor-pointer py-4 text-lg font-medium">{category.title}</summary>
-            <div className="flex flex-col gap-6 border-t border-gray-200 pb-5 pt-5 text-base leading-relaxed text-[#6B6B6B]">
+            <div className="flex flex-col gap-6 pb-5 pt-5 text-base leading-relaxed text-[#6B6B6B]">
               {category.items.map((item) => (
                 <div key={item.question}>
                   <h3 className="mb-2 font-medium text-[#2D2D2D]">{item.question}</h3>
