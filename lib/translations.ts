@@ -126,11 +126,12 @@ export const translations = {
       successTitle: "Vielen Dank! 🎉",
       successMessage: "Du bist jetzt auf der Interessentenliste.",
       successSubMessage: "Wir melden uns bald bei dir!",
-      trustIndicators: ["Made in Switzerland", "Datenschutz garantiert", "Community first"],
-    },
-    faq: {
-      title: "FAQs",
-      general: {
+  trustIndicators: ["Made in Switzerland", "Datenschutz garantiert", "Community first"],
+  },
+  faq: {
+  title: "FAQs",
+  subtitle: "Häufig gestellte Fragen zu Miauzly",
+  general: {
         title: "Allgemeines",
         items: [
           { question: "Was ist Miauzly?", answer: "Miauzly ist eine Schweizer Plattform, die Katzenhalter mit Katzensitter zusammenbringt. Wir konzentrieren uns ganz auf Katzen und ihre individuellen Bedürfnisse." },
@@ -403,11 +404,12 @@ export const translations = {
       successTitle: "Thank you! 🎉",
       successMessage: "You are now on the waiting list.",
       successSubMessage: "We'll get in touch soon!",
-      trustIndicators: ["Made in Switzerland", "Privacy guaranteed", "Community first"],
-    },
-    faq: {
-      title: "FAQs",
-      general: {
+  trustIndicators: ["Made in Switzerland", "Privacy guaranteed", "Community first"],
+  },
+  faq: {
+  title: "FAQs",
+  subtitle: "Frequently asked questions about Miauzly",
+  general: {
         title: "General",
         items: [
           { question: "What is Miauzly?", answer: "Miauzly is a Swiss platform that connects cat owners with cat sitters. We focus entirely on cats and their individual needs." },

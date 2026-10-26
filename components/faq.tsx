@@ -8,9 +8,12 @@ export function FAQ() {
   return (
     <section className="bg-white px-4 py-16 text-[#2D2D2D] md:py-24" aria-labelledby="faq-title">
       <div className="mx-auto max-w-3xl">
-        <h2 id="faq-title" className="mb-8 text-center text-3xl md:text-4xl">
+        <h2 id="faq-title" className="text-center text-3xl md:text-4xl">
           {t.faq.title}
         </h2>
+        <p className="mb-8 text-center text-base text-[#6B6B6B]">
+          {t.faq.subtitle}
+        </p>
         {[t.faq.general, t.faq.owners, t.faq.sitters].map((category, index) => (
           <details
             className={index === 0 ? "px-6" : "border-t border-gray-200 px-6"}
