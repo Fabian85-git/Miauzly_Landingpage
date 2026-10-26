@@ -60,12 +60,6 @@ export function Hero() {
                 {t.hero.cta}
               </Link>
 
-              <div className="flex flex-col items-start gap-1 text-gray-300 max-w-md text-base">
-                <span>{t.hero.waitlist}</span>
-                <Link href="#newsletter" className="underline underline-offset-4 hover:text-white transition-colors">
-                  {t.hero.waitlistLink}
-                </Link>
-              </div>
             </div>
           </div>
         </div>
