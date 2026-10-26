@@ -4,9 +4,9 @@ export const translations = {
   de: {
     hero: {
       badge: "Bald verfügbar in der Schweiz",
-      title: "Die Schweizer Plattform für Katzenbetreuung- & Community",
-      description:
-        "miauzly.ch ist die erste Schweizer Plattform von Katzenfans für Katzenfans. Finde vertrauensvolle Katzensitter in deiner Nähe – oder biete selbst Katzenbetreuung an.",
+  title: "Die Schweizer Plattform für Katzenbetreuung",
+  description:
+    "Miaizly ist die erste Schweizer Plattform von Katzenfans für Katzenfans. Finde vertrauensvolle Katzensitter in deiner Nähe – oder biete selbst Katzenbetreuung an.",
       cta: "Jetzt kostenlos registrieren",
       secondaryCta: "Catsitter werden",
       waitlist: "Registrierung kostenlos · Sichere Bezahlung in CHF",
