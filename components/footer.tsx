@@ -1,17 +1,34 @@
 "use client"
 
+import { useState, type FormEvent } from "react"
 import { Instagram } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 import Link from "next/link"
 
 export function Footer() {
   const { t } = useLanguage()
+  const [email, setEmail] = useState("")
+  const [submitted, setSubmitted] = useState(false)
+
+  async function handleNewsletterSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    const formData = new FormData()
+    formData.append("access_key", "5f1f06aa-ed2b-483f-b2cc-844fa01b8b93")
+    formData.append("email", email)
+    formData.append("subject", "Neue Newsletter-Anmeldung von miauzly.ch")
+    const response = await fetch("https://api.web3forms.com/submit", { method: "POST", body: formData })
+    const data = await response.json()
+    if (data.success) {
+      setSubmitted(true)
+      setEmail("")
+    }
+  }
 
   return (
     <footer className="bg-[#2D2D2D] text-white px-4 py-12 bg-[rgba(46,46,46,1)]">
       <div className="mx-auto max-w-7xl">
         {/* Main Footer Content */}
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
@@ -45,6 +62,30 @@ export function Footer() {
                 </a>
               </li>
             </ul>
+          </div>
+
+          {/* Newsletter */}
+          <div className="space-y-4">
+            <h4 className="text-sm opacity-60">Newsletter erhalten</h4>
+            {submitted ? (
+              <p className="text-sm text-gray-300">Danke für deine Anmeldung.</p>
+            ) : (
+              <form onSubmit={handleNewsletterSubmit} className="flex max-w-sm gap-2">
+                <label htmlFor="footer-newsletter-email" className="sr-only">E-Mail-Adresse</label>
+                <input
+                  id="footer-newsletter-email"
+                  type="email"
+                  required
+                  value={email}
+                  onChange={(event) => setEmail(event.target.value)}
+                  placeholder="deine@email.ch"
+                  className="min-w-0 flex-1 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm text-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FFC736]"
+                />
+                <button type="submit" className="rounded-full bg-[#FFC736] px-4 py-2 text-sm font-medium text-[#2D2D2D] hover:bg-[#ffd45c]">
+                  Senden
+                </button>
+              </form>
+            )}
           </div>
 
           {/* Social */}

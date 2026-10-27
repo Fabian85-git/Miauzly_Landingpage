@@ -13,23 +13,24 @@ export const translations = {
       waitlistLink: "Newsletter abonnieren",
     },
     howItWorks: {
-      title: "Wie funktioniert miauzly?",
+      title: "So funktioniert miauzly",
       audiences: [
         {
           title: "Für Katzenhalter:innen",
           steps: [
             { label: "Kostenloses Login", description: "Registriere dich kostenlos und buche vertrauensvolle Katzensitter gegen Bezahlung" },
-            { label: "", description: "Buche Katzensitter gegen Bezahlung, wann immer du zusätzliche Unterstützung brauchst" },
+            { label: "Faire und transparente Gebühren", description: "Bei Miauzly zahlst du nur CHF 2.50 Servicegebühr pro Buchung – ohne hohe prozentuale Servicegebühr auf den Betreuungspreis." },
+            { label: "", description: "Unkomplizierte Zahlungsabwicklung direkt über die Plattform." },
           ],
-          note: "Katzenhalter:innen können auch selbst als Catsitter aktiv werden",
+          note: "",
         },
         {
           title: "Für Katzensitter:innen",
           steps: [
             { label: "", description: "Erstelle dein persönliches Profil und zeige deine Erfahrung" },
-            { label: "", description: "Bewirb dich auf Buchungen oder werde direkt angefragt" },
-            { label: "Faire Provision (15%)", description: "" },
-            { label: "", description: "Sammle Bewertungen, baue Vertrauen auf und erhalte dadurch mehr Buchungen" },
+            { label: "", description: "Bewirb dich auf offene Buchungen oder werde direkt angefragt" },
+            { label: "", description: "Sammle Bewertungen, baue Vertrauen auf und erhalte dadurch mehr Aufträge" },
+            { label: "Transparente Provision", description: "Miauzly behält 15 % des Betreuungshonorars als Provision ein. Damit finanzieren wir den Betrieb und die Weiterentwicklung der Plattform – zu fairen, branchenüblichen Konditionen." },
           ],
           note: "",
         },
@@ -41,16 +42,17 @@ export const translations = {
         {
           title: "Für Katzenhalter:innen",
           benefits: [
-            "Vernetze dich mit Katzenhalter:innen in deiner Nähe",
-            "Oder finde liebevolle, verifizierte Katzensitter gegen Bezahlung\n",
+            "Profile in deiner Nähe durchsuchen",
+            "Vertrauensvolle Sitter:innen finden",
+            "Sicher buchen und Urlaub geniessen",
           ],
         },
         {
           title: "Für Katzensitter:innen",
           benefits: [
-            "Teile deine Katzenliebe – und verdiene dabei flexibel dazu\n",
-            "Bestimme selbst, wann und wie oft du verfügbar bist\n",
-            "Werde Teil einer lokalen Community von Katzenfans\n",
+            "Teile deine Katzenliebe – und verdiene dabei flexibel dazu",
+            "Bestimme selbst, wann und wie oft du verfügbar bist",
+            "Lege dein Honorar selber fest",
           ],
         },
       ],
@@ -58,8 +60,7 @@ export const translations = {
     whyMiauzly: {
       title: "Warum miauzly?",
       intro: [
-        "Wir sind selber Katzenhalter. Und jedes Mal, wenn Ferien oder ein spontaner Ausflug ansteht, kommt dieselbe Sorge: Wer kümmert sich um unsere Fellnasen. Denn jede Katze hat ihren eigenen Charakter, ihre Routinen und Bedürfnisse. Und wir wünschen uns jemanden, der sie genauso liebevoll betreut, wie wir es selbst tun würden.",
-        "Zwar gibt es bereits Plattformen für Tierbetreuung. Doch oft wirken sie unpersönlich, sind mit zusätzlichen Servicegebühren verbunden und vor allem: Keine ist auf Katzen spezialisiert.\n\nAus diesem Bedürfnis ist miauzly.ch entstanden: Ein Ort, an dem Katzenfans zusammenfinden. Wo Verständnis, Vertrauen und echte Katzenliebe im Mittelpunkt stehen. \nVon Katzenfans für Katzenfans.\n",
+        "Wir haben selbst zwei Katzen und kennen die Sorge: Wer kümmert sich liebevoll um unsere Fellnasen, wenn wir verreisen? Bestehende Plattformen für Tierbetreuung sind oft unpersönlich und mit hohen, zusätzlichen Servicegebühren verbunden und/oder nicht ausschliesslich auf Katzen spezialisiert. Deshalb haben wir Miauzly gegründet: eine Schweizer Plattform von Katzenfans für Katzenfans. Ein Ort, an dem Vertrauen, Verständnis und echte Katzenliebe im Mittelpunkt stehen.",
       ],
       features: [
         {
@@ -291,7 +292,7 @@ export const translations = {
       waitlistLink: "Subscribe to newsletter",
     },
     howItWorks: {
-      title: "How does miauzly work?",
+      title: "How miauzly works",
       audiences: [
         {
           title: "For cat owners",
