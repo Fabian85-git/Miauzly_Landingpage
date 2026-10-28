@@ -57,6 +57,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/verhaltenskodex" className="text-gray-400 hover:text-[#4ECDC4] transition-colors">
+                  Verhaltenskodex
+                </Link>
+              </li>
+              <li>
                 <a href="mailto:hello@miauzly.ch" className="text-gray-400 hover:text-[#4ECDC4] transition-colors">
                   hello@miauzly.ch
                 </a>

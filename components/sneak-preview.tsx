@@ -109,7 +109,7 @@ export function SneakPreview() {
 
         <div className="hidden md:block mb-8">
           <div className="overflow-x-auto">
-            <div className="flex gap-8 pb-4">
+            <div className="flex justify-center gap-8 pb-4">
               {mockups.map((mockup, index) => (
                 <div key={index} className="flex flex-col items-center flex-shrink-0">
                   <div className="bg-[#2D2D2D] rounded-[2.25rem] p-2.5 w-[280px] shadow-[0_12px_30px_rgba(45,45,45,0.2)]">
