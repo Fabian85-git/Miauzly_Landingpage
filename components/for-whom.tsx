@@ -6,26 +6,11 @@ import Image from "next/image"
 export function ForWhom() {
   const { t } = useLanguage()
 
-  const icons = [
-    <Image
-      key="holding"
-      src="/images/holding2.svg"
-      alt="Holding cat"
-      width={200}
-      height={200}
-      className="h-[200px] w-[200px]"
-    />,
-    <Image
-      key="sitting"
-      src="/images/sitting2.svg"
-      alt="Sitting cat"
-      width={200}
-      height={200}
-      className="h-[200px] w-[200px]"
-    />,
+  const images = [
+    { src: "/images/katzenhalter-final.png", alt: "Katze, die in einer weichen Decke ruht" },
+    { src: "/images/katzensitter-final.png", alt: "Katzensitterin mit einer Katze im Arm" },
   ]
 
-  const emojis = ["🏠", "🐾"]
   return (
     <section className="bg-white px-4 py-16 md:py-24">
       <div className="mx-auto max-w-7xl">
@@ -35,11 +20,18 @@ export function ForWhom() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {t.forWhom.audiences.map((audience, index) => (
-            <div key={index} className="rounded-3xl p-8 transition-all bg-white shadow-[0_8px_40px_rgba(0,0,0,0.18)]">
-              <div className="flex flex-col gap-4 mb-6 items-start">
-                {icons[index]}
-                <h3 className="text-[#2D2D2D] font-bold text-center text-2xl">{audience.title}</h3>
-              </div>
+            <div key={index} className="overflow-hidden rounded-3xl bg-white shadow-[0_8px_40px_rgba(0,0,0,0.18)] transition-all">
+              <Image
+                src={images[index].src}
+                alt={images[index].alt}
+                width={990}
+                height={660}
+                className="h-[250px] w-full object-cover md:h-[330px]"
+              />
+              <div className="p-8">
+                <div className="mb-6 flex flex-col items-start gap-4">
+                  <h3 className="text-center text-2xl font-bold text-[#2D2D2D]">{audience.title}</h3>
+                </div>
 
               <ul className="space-y-4">
                 {audience.benefits.map((benefit, benefitIndex) => (
@@ -53,6 +45,7 @@ export function ForWhom() {
                   </li>
                 ))}
               </ul>
+              </div>
             </div>
           ))}
         </div>

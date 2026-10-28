@@ -43,24 +43,19 @@ export function SneakPreview() {
 
   const mockups = [
     {
-      src: "/images/1-home-preview.jpg",
-      alt: "Miauzly App - Home",
+      src: "/images/home-miauzly.jpg",
+      alt: "Miauzly Startseite mit nächstem Sitting und Sitter-Karte",
       label: t.sneakPreview.mockups[0],
     },
     {
-      src: "/images/3-profil-besitzer-preview.jpg",
-      alt: "Miauzly App - Besitzer Profil",
+      src: "/images/kalender-miauzly.jpg",
+      alt: "Miauzly Buchungsübersicht im Kalender",
       label: t.sneakPreview.mockups[1],
     },
     {
-      src: "/images/4-termine-preview.jpg",
-      alt: "Miauzly App - Termine",
+      src: "/images/profil-sitter-miauzly.jpg",
+      alt: "Miauzly Katzensitter-Profil mit Bewertung und Preis",
       label: t.sneakPreview.mockups[2],
-    },
-    {
-      src: "/images/5-marktplatz-preview.jpg",
-      alt: "Miauzly App - Marktplatz",
-      label: t.sneakPreview.mockups[3],
     },
   ]
 
@@ -81,7 +76,7 @@ export function SneakPreview() {
             {mockups.map((mockup, index) => (
               <div key={index} data-index={index} className="flex-shrink-0 w-full snap-center px-4">
                 <div className="flex flex-col items-center">
-                  <div className="bg-[#2D2D2D] rounded-[2rem] p-2 w-full max-w-[280px] mx-auto">
+                  <div className="bg-[#2D2D2D] rounded-[2.25rem] p-2.5 w-full max-w-[280px] mx-auto shadow-[0_12px_30px_rgba(45,45,45,0.2)]">
                     <div className="bg-white rounded-[1.5rem] overflow-hidden">
                       <Image
                         src={mockup.src || "/placeholder.svg"}
@@ -114,10 +109,10 @@ export function SneakPreview() {
 
         <div className="hidden md:block mb-8">
           <div className="overflow-x-auto">
-            <div className="flex gap-8 pb-4">
+            <div className="flex justify-center gap-8 pb-4">
               {mockups.map((mockup, index) => (
                 <div key={index} className="flex flex-col items-center flex-shrink-0">
-                  <div className="bg-[#2D2D2D] rounded-[2rem] p-2 w-[280px]">
+                  <div className="bg-[#2D2D2D] rounded-[2.25rem] p-2.5 w-[280px] shadow-[0_12px_30px_rgba(45,45,45,0.2)]">
                     <div className="bg-white rounded-[1.5rem] overflow-hidden">
                       <Image
                         src={mockup.src || "/placeholder.svg"}
