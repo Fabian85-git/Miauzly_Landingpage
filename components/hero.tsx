@@ -13,7 +13,7 @@ export function Hero() {
       {/* Fullscreen Background Video */}
       <div className="absolute inset-0 z-0">
         <video autoPlay loop muted playsInline className="w-full h-full object-cover brightness-110 contrast-110">
-          <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/header_video_miauzly3-ac3WV7WfnnQ45gPDrOwEfvoNIP2ddK.mp4" type="video/mp4" />
+          <source src="/videos/miauzly-background.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/20"></div>
       </div>
@@ -46,7 +46,7 @@ export function Hero() {
               <span className="text-sm text-white">{t.hero.badge}</span>
             </div> */}
 
-            <h1 className="text-5xl md:text-6xl leading-tight text-white mb-6 text-left tracking-normal font-normal" style={{ fontSize: "57px" }}>
+            <h1 lang="de" className="mb-6 max-w-full break-words text-left text-[42px] font-normal leading-[1.05] tracking-normal text-white hyphens-auto sm:text-5xl md:text-6xl lg:text-[57px]">
               {t.hero.title}
             </h1>
 
