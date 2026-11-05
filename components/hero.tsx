@@ -13,7 +13,7 @@ export function Hero() {
       {/* Fullscreen Background Video */}
       <div className="absolute inset-0 z-0">
         <video autoPlay loop muted playsInline className="w-full h-full object-cover brightness-110 contrast-110">
-          <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/header_video_miauzly3-ac3WV7WfnnQ45gPDrOwEfvoNIP2ddK.mp4" type="video/mp4" />
+          <source src="/videos/miauzly-background.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/20"></div>
       </div>
