@@ -31,6 +31,7 @@ export function ForWhom() {
               <div className="p-8">
                 <div className="mb-6 flex flex-col items-start gap-4">
                   <h3 className="text-center text-2xl font-bold text-[#2D2D2D]">{audience.title}</h3>
+                  <p className="text-base text-[#6B6B6B]">{audience.subtitle}</p>
                 </div>
 
               <ul className="space-y-4">
@@ -41,7 +42,7 @@ export function ForWhom() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <p className="text-[#6B6B6B] flex-1 text-xl">{benefit}</p>
+                    <p className="flex-1 text-base text-[#6B6B6B]">{benefit}</p>
                   </li>
                 ))}
               </ul>
