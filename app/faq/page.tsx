@@ -5,7 +5,11 @@ import { FAQ } from "@/components/faq"
 import { Footer } from "@/components/footer"
 import { LanguageToggle } from "@/components/language-toggle"
 import { LogoWhite } from "@/components/logo-white"
+import { useLanguage } from "@/contexts/language-context"
+
 export default function FAQPage() {
+  const { language } = useLanguage()
+
   return (
     <div className="min-h-screen bg-white">
       <header className="sticky top-0 z-50 border-b border-gray-800 bg-gray-900/95 backdrop-blur-md">
@@ -19,6 +23,11 @@ export default function FAQPage() {
         </div>
       </header>
       <main>
+        <div className="mx-auto max-w-6xl px-6 pt-8 md:px-10">
+          <Link href="/" className="text-sm text-[#5f5f5f] transition-colors hover:text-[#2D2D2D]">
+            ← {language === "en" ? "Back to miauzly" : "Zurück zu miauzly"}
+          </Link>
+        </div>
         <FAQ />
       </main>
       <Footer />
