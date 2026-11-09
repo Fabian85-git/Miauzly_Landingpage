@@ -92,8 +92,8 @@ export const translations = {
       ],
     },
     sneakPreview: {
-      title: "So sieht miauzly aus",
-      mockups: ["Home", "Profil Halter*innen", "Termine", "Marktplatz"],
+      title: "So sieht Miauzly aus",
+      mockups: ["Home", "Termine", "Profil Halter*innen", "Marktplatz"],
       description: "",
       cta: "",
     },
@@ -370,8 +370,8 @@ export const translations = {
       ],
     },
     sneakPreview: {
-      title: "Take a look inside",
-      mockups: ["Home", "Owner Profile", "Appointments", "Marketplace"],
+      title: "Take a look inside Miauzly",
+      mockups: ["Home", "Appointments", "Owner Profile", "Marketplace"],
       description: "",
       cta: "",
     },

@@ -55,7 +55,7 @@ export function Hero() {
             <div className="flex w-full flex-col items-start gap-4 md:w-auto md:flex-row">
               <Link
                 href="https://my.miauzly.ch"
-                className="inline-flex w-full cursor-pointer items-center justify-center rounded-full bg-[#0062F0] px-10 py-4 text-lg font-medium text-gray-900 transition-all hover:bg-brand-yellow-hover md:w-auto"
+                className="inline-flex w-full cursor-pointer items-center justify-center rounded-full bg-[#0062F0] px-10 py-4 text-lg font-medium text-white transition-all hover:bg-brand-yellow-hover md:w-auto"
               >
                 {t.hero.cta}
               </Link>
