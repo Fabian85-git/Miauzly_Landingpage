@@ -411,7 +411,7 @@ export const translations = {
   },
   faq: {
   title: "FAQs",
-  subtitle: "Frequently asked questions about Miauzly",
+  subtitle: "Miauzly is the first Swiss platform by cat lovers, for cat lovers. Find caring cat sitters in your area—for vacations, weekend getaways, or everyday life. Miauzly connects cat owners with people who love cats just as much as we do.",
   general: {
         title: "General",
         items: [
