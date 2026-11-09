@@ -52,14 +52,19 @@ export function Hero() {
 
             <p className="text-xl md:text-xl text-gray-200 mb-8 max-w-2xl">{t.hero.description}</p>
 
-            <div className="flex flex-col items-start gap-4 w-full md:w-auto">
+            <div className="flex w-full flex-col items-start gap-4 md:w-auto md:flex-row">
               <Link
                 href="https://my.miauzly.ch"
-                className="w-full md:w-auto bg-brand-yellow hover:bg-brand-yellow-hover text-gray-900 rounded-full px-10 py-6 transition-all font-medium cursor-pointer inline-flex items-center justify-center text-lg"
+                className="inline-flex w-full cursor-pointer items-center justify-center rounded-full bg-brand-yellow px-10 py-6 text-lg font-medium text-gray-900 transition-all hover:bg-brand-yellow-hover md:w-auto"
               >
                 {t.hero.cta}
               </Link>
-
+              <Link
+                href="https://my.miauzly.ch"
+                className="inline-flex w-full cursor-pointer items-center justify-center rounded-full border-2 border-white px-10 py-6 text-lg font-medium text-white transition-all hover:bg-white/10 md:w-auto"
+              >
+                {t.hero.secondaryCta}
+              </Link>
             </div>
           </div>
         </div>

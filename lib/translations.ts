@@ -4,11 +4,11 @@ export const translations = {
   de: {
     hero: {
       badge: "Bald verfügbar in der Schweiz",
-  title: "Die Schweizer Plattform für Katzenbetreuung",
+  title: "Katzensitting Schweiz. Weil deine Katze das Beste verdient.",
   description:
-    "Miaizly ist die erste Schweizer Plattform von Katzenfans für Katzenfans. Finde vertrauensvolle Katzensitter in deiner Nähe – oder biete selbst Katzenbetreuung an.",
-      cta: "Jetzt kostenlos registrieren",
-      secondaryCta: "Catsitter werden",
+    "Miauzly ist die erste Schweizer Plattform von Katzenfans für Katzenfans. Finde liebevolle Katzensitter in deiner Nähe – für Ferien, Wochenendausflüge oder den Alltag. Miauzly verbindet Katzenhalter:innen mit Menschen, die Katzen genauso lieben wie wir.",
+      cta: "Katzensitter:in finden",
+      secondaryCta: "Katzensitter:in werden",
       waitlist: "Registrierung kostenlos · Sichere Bezahlung in CHF",
       waitlistLink: "Newsletter abonnieren",
     },
@@ -41,6 +41,7 @@ export const translations = {
       audiences: [
         {
           title: "Für Katzenhalter:innen",
+          subtitle: "Finde den passenden Katzensitter für deine Katze",
           benefits: [
             "Profile in deiner Nähe durchsuchen",
             "Vertrauensvolle Sitter:innen finden",
@@ -49,6 +50,7 @@ export const translations = {
         },
         {
           title: "Für Katzensitter:innen",
+          subtitle: "Katzensitter werden und Katzen liebevoll betreuen",
           benefits: [
             "Teile deine Katzenliebe – und verdiene dabei flexibel dazu",
             "Bestimme selbst, wann und wie oft du verfügbar bist",
@@ -60,7 +62,7 @@ export const translations = {
     whyMiauzly: {
       title: "Warum miauzly?",
       intro: [
-        "Wir haben selbst zwei Katzen und kennen die Sorge: Wer kümmert sich liebevoll um unsere Fellnasen, wenn wir verreisen? Bestehende Plattformen für Tierbetreuung sind oft unpersönlich und mit hohen, zusätzlichen Servicegebühren verbunden und/oder nicht ausschliesslich auf Katzen spezialisiert. Deshalb haben wir Miauzly gegründet: eine Schweizer Plattform von Katzenfans für Katzenfans. Ein Ort, an dem Vertrauen, Verständnis und echte Katzenliebe im Mittelpunkt stehen.",
+        "Wir haben selbst zwei Katzen und kennen die Sorge: Wer kümmert sich liebevoll um sie, wenn wir verreisen? Bestehende Plattformen für Tierbetreuung sind oft unpersönlich, mit hohen, zusätzlichen Servicegebühren verbunden und/oder nicht ausschliesslich auf Katzen spezialisiert. Deshalb haben wir Miauzly gegründet: eine Schweizer Plattform von Katzenfans für Katzenfans. Ein Ort, an dem Vertrauen, Verständnis und echte Katzenliebe im Mittelpunkt stehen.",
       ],
       features: [
         {
@@ -73,7 +75,7 @@ export const translations = {
         },
         {
           title: "Vertrauensvoll",
-          description: "Echte Bewertungen und geprüfte Mitglieder",
+          description: "Authentische Bewertungen von echten Mitglieder",
         },
         {
           title: "Flexibel für jedes Budget",
