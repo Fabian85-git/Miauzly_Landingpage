@@ -288,7 +288,7 @@ export const translations = {
       title: "Cat Sitting in Switzerland. Because your cat deserves the best.",
       description:
         "Miauzly is the first Swiss platform created by cat lovers for cat lovers. Find caring cat sitters in your area—for vacations, weekend getaways, or everyday life. Miauzly connects cat owners with people who love cats just as much as we do.",
-      cta: "Sign up for free",
+      cta: "Find a cat sitter",
       secondaryCta: "Become a cat sitter",
       waitlist: "Free registration · Secure payments in CHF",
       waitlistLink: "Subscribe to newsletter",
